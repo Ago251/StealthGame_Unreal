@@ -1,0 +1,13 @@
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\Definitions.StealthGame.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame\StealthGameGameMode.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\StealthGameGameMode.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame\StealthGameCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\StealthGameCharacter.generated.h
