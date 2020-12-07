@@ -7,6 +7,7 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "DrawDebugHelpers.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -102,6 +103,43 @@ void AStealthGameCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AStealthGameCharacter::JumpCharacter(){
+	jumpButtonDown = true;
+}
+
+void AStealthGameCharacter::ReleaseJumpCharacter(){
+	jumpButtonDown = false;
+}
+
+void AStealthGameCharacter::CrouchCharacter(){
+	crouchButtonDown = true;
+}
+
+void AStealthGameCharacter::StandUpCharacter(){
+	crouchButtonDown = false;
+}
+
+bool AStealthGameCharacter::CanJumpCharacter(bool jumpButton, bool crouchButton){
+	if(jumpButton && !crouchButton){
+		return true;
+	}
+	return false;
+}
+
+void AStealthGameCharacter::FireCharacter(){
+	FHitResult outHit;
+
+	FVector start = FollowCamera->GetComponentLocation();
+	FVector forwardVector = FollowCamera->GetForwardVector();
+
+	start = start + (forwardVector * CameraBoom->TargetArmLength);
+	FVector end = start + (forwardVector * 5000.f);
+
+	FCollisionQueryParams collisionParams;
+	collisionParams.AddIgnoredActor(this->GetOwner());
+	DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 1, 0, 1);
 }
 
 void AStealthGameCharacter::MoveForward(float Value)

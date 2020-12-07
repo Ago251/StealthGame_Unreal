@@ -29,6 +29,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Movement)
+	bool crouchButtonDown; 
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Movement)
+	bool jumpButtonDown;
+
 protected:
 
 	/** Resets HMD orientation in VR. */
@@ -68,5 +74,12 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	void FireCharacter();
+	bool CanJumpCharacter(bool jumpButton, bool crouchButton);
+	void StandUpCharacter();
+	void CrouchCharacter();
+	void JumpCharacter();
+	void ReleaseJumpCharacter();
 };
 

@@ -34,6 +34,16 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_jumpButtonDown_MetaData[];
+#endif
+		static void NewProp_jumpButtonDown_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_jumpButtonDown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_crouchButtonDown_MetaData[];
+#endif
+		static void NewProp_crouchButtonDown_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_crouchButtonDown;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
@@ -64,6 +74,28 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		{ "ModuleRelativePath", "StealthGameCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown_SetBit(void* Obj)
+	{
+		((AStealthGameCharacter*)Obj)->jumpButtonDown = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown = { "jumpButtonDown", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AStealthGameCharacter), &Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown_SetBit, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown_SetBit(void* Obj)
+	{
+		((AStealthGameCharacter*)Obj)->crouchButtonDown = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown = { "crouchButtonDown", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AStealthGameCharacter), &Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown_SetBit, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -105,6 +137,8 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStealthGameCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStealthGameCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_FollowCamera,
@@ -137,7 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStealthGameCharacter, 385560709);
+	IMPLEMENT_CLASS(AStealthGameCharacter, 3041476671);
 	template<> STEALTHGAME_API UClass* StaticClass<AStealthGameCharacter>()
 	{
 		return AStealthGameCharacter::StaticClass();
