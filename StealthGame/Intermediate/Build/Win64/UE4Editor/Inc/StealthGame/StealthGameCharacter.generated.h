@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define STEALTHGAME_StealthGameCharacter_generated_h
 
 #define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_SPARSE_DATA
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_RPC_WRAPPERS
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCanJumpCharacter);
+
+
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCanJumpCharacter);
+
+
 #define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStealthGameCharacter(); \

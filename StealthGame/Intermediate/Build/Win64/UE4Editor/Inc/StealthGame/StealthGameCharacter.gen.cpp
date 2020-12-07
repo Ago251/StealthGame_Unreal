@@ -20,8 +20,78 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AStealthGameCharacter::execCanJumpCharacter)
+	{
+		P_GET_UBOOL(Z_Param_jumpButton);
+		P_GET_UBOOL(Z_Param_crouchButton);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->CanJumpCharacter(Z_Param_jumpButton,Z_Param_crouchButton);
+		P_NATIVE_END;
+	}
 	void AStealthGameCharacter::StaticRegisterNativesAStealthGameCharacter()
 	{
+		UClass* Class = AStealthGameCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CanJumpCharacter", &AStealthGameCharacter::execCanJumpCharacter },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics
+	{
+		struct StealthGameCharacter_eventCanJumpCharacter_Parms
+		{
+			bool jumpButton;
+			bool crouchButton;
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static void NewProp_crouchButton_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_crouchButton;
+		static void NewProp_jumpButton_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_jumpButton;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((StealthGameCharacter_eventCanJumpCharacter_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(StealthGameCharacter_eventCanJumpCharacter_Parms), &Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_crouchButton_SetBit(void* Obj)
+	{
+		((StealthGameCharacter_eventCanJumpCharacter_Parms*)Obj)->crouchButton = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_crouchButton = { "crouchButton", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(StealthGameCharacter_eventCanJumpCharacter_Parms), &Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_crouchButton_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_jumpButton_SetBit(void* Obj)
+	{
+		((StealthGameCharacter_eventCanJumpCharacter_Parms*)Obj)->jumpButton = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_jumpButton = { "jumpButton", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(StealthGameCharacter_eventCanJumpCharacter_Parms), &Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_jumpButton_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_crouchButton,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::NewProp_jumpButton,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::Function_MetaDataParams[] = {
+		{ "Category", "MyFuctions" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStealthGameCharacter, nullptr, "CanJumpCharacter", nullptr, nullptr, sizeof(StealthGameCharacter_eventCanJumpCharacter_Parms), Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AStealthGameCharacter_NoRegister()
 	{
@@ -30,6 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 	struct Z_Construct_UClass_AStealthGameCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -66,6 +137,9 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 	UObject* (*const Z_Construct_UClass_AStealthGameCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_StealthGame,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AStealthGameCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter, "CanJumpCharacter" }, // 1919913920
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::Class_MetaDataParams[] = {
@@ -152,11 +226,11 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AStealthGameCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -171,7 +245,7 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStealthGameCharacter, 3041476671);
+	IMPLEMENT_CLASS(AStealthGameCharacter, 1367054357);
 	template<> STEALTHGAME_API UClass* StaticClass<AStealthGameCharacter>()
 	{
 		return AStealthGameCharacter::StaticClass();

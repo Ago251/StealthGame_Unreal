@@ -76,6 +76,7 @@ public:
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
 	void FireCharacter();
+	UFUNCTION(BlueprintCallable, Category="MyFuctions")
 	bool CanJumpCharacter(bool jumpButton, bool crouchButton);
 	void StandUpCharacter();
 	void CrouchCharacter();

@@ -55,8 +55,14 @@ void AStealthGameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	if(!crouchButtonDown){
+		PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AStealthGameCharacter::JumpCharacter);
+		PlayerInputComponent->BindAction("Jump", IE_Released, this, &AStealthGameCharacter::ReleaseJumpCharacter);
+	}
+
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AStealthGameCharacter::CrouchCharacter);
+	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AStealthGameCharacter::StandUpCharacter);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AStealthGameCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AStealthGameCharacter::MoveRight);
