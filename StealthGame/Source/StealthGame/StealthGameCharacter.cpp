@@ -61,6 +61,8 @@ void AStealthGameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 		PlayerInputComponent->BindAction("Jump", IE_Released, this, &AStealthGameCharacter::ReleaseJumpCharacter);
 	}
 
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AStealthGameCharacter::FireCharacter);
+
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AStealthGameCharacter::CrouchCharacter);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AStealthGameCharacter::StandUpCharacter);
 

@@ -36,7 +36,6 @@ public:
 	bool jumpButtonDown;
 
 protected:
-
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
 
