@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "StealthGameCharacter.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FGameStateCharacter)
 UCLASS(config=Game)
 class AStealthGameCharacter : public ACharacter
 {
@@ -18,6 +19,7 @@ class AStealthGameCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 public:
 	AStealthGameCharacter();
 

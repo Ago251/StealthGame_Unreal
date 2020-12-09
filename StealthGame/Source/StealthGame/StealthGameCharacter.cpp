@@ -114,10 +114,15 @@ void AStealthGameCharacter::LookUpAtRate(float Rate)
 }
 
 void AStealthGameCharacter::JumpCharacter(){
-	jumpButtonDown = true;
+	UE_LOG(LogTemp, Warning, TEXT("Jump"));
+	if(!crouchButtonDown){
+		Jump();
+		jumpButtonDown = true;
+	}
 }
 
 void AStealthGameCharacter::ReleaseJumpCharacter(){
+	StopJumping();
 	jumpButtonDown = false;
 }
 
