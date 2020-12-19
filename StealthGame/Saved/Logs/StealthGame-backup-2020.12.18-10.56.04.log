@@ -1,0 +1,1675 @@
+﻿Log file open, 12/18/20 09:40:21
+LogInit: Display: Running engine for game: StealthGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.055454
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.18-08.40.23:936][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.18-08.40.23:936][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.18-08.40.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:946][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.18-08.40.23:946][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.18-08.40.23:947][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.18-08.40.23:948][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.18-08.40.23:949][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.18-08.40.23:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.18-08.40.23:951][  0]LogHAL: Display: Platform has ~ 16 GB [17129345024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.18-08.40.23:951][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.18-08.40.23:952][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.18-08.40.23:952][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:952][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.18-08.40.23:953][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.18-08.40.23:963][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.18-08.40.23:963][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.18-08.40.23:963][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.18-08.40.23:963][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.12.18-08.40.23:965][  0]LogInit: Computer: DESKTOP-6MS0EH0
+[2020.12.18-08.40.23:966][  0]LogInit: User: ago25
+[2020.12.18-08.40.23:966][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.18-08.40.23:966][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.18-08.40.23:966][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.12.18-08.40.23:966][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.18-08.40.23:966][  0]LogMemory: Process Physical Memory: 115.31 MB used, 115.31 MB peak
+[2020.12.18-08.40.23:966][  0]LogMemory: Process Virtual Memory: 103.54 MB used, 103.54 MB peak
+[2020.12.18-08.40.23:967][  0]LogMemory: Physical Memory: 7232.45 MB used,  9103.36 MB free, 16335.82 MB total
+[2020.12.18-08.40.23:967][  0]LogMemory: Virtual Memory: 5136.78 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.12.18-08.40.23:975][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.18-08.40.24:683][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.18-08.40.24:889][  0]LogInit: Using OS detected language (en-GB).
+[2020.12.18-08.40.24:889][  0]LogInit: Using OS detected locale (en-GB).
+[2020.12.18-08.40.24:926][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.12.18-08.40.25:399][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.18-08.40.25:561][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.18-08.40.25:562][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.18-08.40.33:453][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.18-08.40.33:453][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.18-08.40.33:453][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.18-08.40.33:453][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.18-08.40.33:576][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.12.18-08.40.33:576][  0]LogD3D11RHI:       4043/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.18-08.40.33:580][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.18-08.40.33:580][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.18-08.40.33:580][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.18-08.40.33:645][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.18-08.40.33:645][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.18-08.40.33:645][  0]LogWindows: EnumDisplayDevices:
+[2020.12.18-08.40.33:645][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.12.18-08.40.33:646][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.12.18-08.40.33:646][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.12.18-08.40.33:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.12.18-08.40.33:646][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.12.18-08.40.33:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.12.18-08.40.33:647][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.12.18-08.40.33:647][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.12.18-08.40.33:647][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.12.18-08.40.33:725][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.18-08.40.33:726][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.18-08.40.33:726][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.18-08.40.33:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.18-08.40.35:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.18-08.40.35:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.18-08.40.35:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.18-08.40.35:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.18-08.40.35:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.18-08.40.35:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.18-08.40.35:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.18-08.40.35:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.18-08.40.35:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.18-08.40.35:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.18-08.40.35:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.18-08.40.35:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.18-08.40.35:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.18-08.40.35:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.18-08.40.35:976][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.18-08.40.35:976][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.18-08.40.36:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.18-08.40.36:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.18-08.40.36:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.18-08.40.36:031][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.18-08.40.36:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.18-08.40.36:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.18-08.40.36:062][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.18-08.40.36:139][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.18-08.40.36:348][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Intermediate/Shaders/WorkingDirectory/19628/).
+[2020.12.18-08.40.36:348][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ago25/AppData/Local/Temp/UnrealShaderWorkingDir/D376F2B34B78E881B15235A67C0D4AF5/'.
+[2020.12.18-08.40.36:350][  0]LogXGEController: Cleaning working directory: C:/Users/ago25/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.18-08.40.36:350][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.18-08.40.36:351][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.18-08.40.36:351][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.18-08.40.43:024][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.18-08.40.43:272][  0]LogDerivedDataCache: Loaded boot cache 0.25s 79MB C:/Users/ago25/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.18-08.40.43:272][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ago25/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.18-08.40.43:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.18-08.40.43:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.18-08.40.43:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.18-08.40.43:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.18-08.40.43:305][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.18-08.40.43:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.18-08.40.43:305][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.18-08.40.43:307][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ago25/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.18-08.40.43:307][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.18-08.40.43:307][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.18-08.40.43:387][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.18-08.40.43:416][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.18-08.40.43:945][  0]LogAssetRegistry: FAssetRegistry took 0.0079 seconds to start up
+[2020.12.18-08.40.44:717][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.18-08.40.45:575][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.18-08.40.45:575][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.18-08.40.45:575][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.18-08.40.45:576][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.18-08.40.45:576][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.18-08.40.45:693][  0]LogNetVersion: StealthGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2868638262)
+[2020.12.18-08.40.49:672][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022126AFE9C0), frame # 0
+[2020.12.18-08.40.49:672][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221269B1080), frame # 0
+[2020.12.18-08.40.49:682][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221269F9C00), frame # 0
+[2020.12.18-08.40.49:946][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.120892 seconds
+[2020.12.18-08.40.49:953][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.12.18-08.40.49:953][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.12.18-08.40.49:953][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.18-08.40.52:817][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.18-08.40.52:832][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.18-08.40.54:082][  0]SourceControl: Source control is disabled
+[2020.12.18-08.40.54:082][  0]SourceControl: Source control is disabled
+[2020.12.18-08.40.54:098][  0]SourceControl: Source control is disabled
+[2020.12.18-08.40.54:108][  0]SourceControl: Source control is disabled
+[2020.12.18-08.40.54:131][  0]SourceControl: Source control is disabled
+[2020.12.18-08.40.55:339][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.18-08.40.55:378][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.18-08.40.55:378][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.18-08.40.55:543][  0]LogOcInput: OculusInput pre-init called
+[2020.12.18-08.40.55:571][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.18-08.40.55:571][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.18-08.40.56:332][  0]LogEngine: Initializing Engine...
+[2020.12.18-08.40.56:341][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.18-08.40.56:341][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.18-08.40.56:347][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.12.18-08.40.56:912][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.18-08.40.57:008][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.18-08.40.57:008][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022127F6DE00), frame # 0
+[2020.12.18-08.40.57:008][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022127FB8CC0), frame # 0
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-08.40.57:041][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-08.40.57:041][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-08.40.57:044][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-08.40.57:044][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-08.40.57:083][  0]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-08.40.57:439][  0]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-08.40.57:483][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-08.40.57:633][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-08.40.57:634][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-08.40.57:636][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-08.40.57:639][  0]LogInit: FAudioDevice initialized.
+[2020.12.18-08.40.57:641][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.18-08.40.58:103][  0]LogDerivedDataCache: Saved boot cache 0.46s 79MB C:/Users/ago25/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.18-08.40.58:109][  0]LogInit: Texture streaming: Enabled
+[2020.12.18-08.40.58:304][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.18-08.40.58:304][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.18-08.40.58:310][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.18-08.40.58:419][  0]LogInit: Transaction tracking system initialized
+[2020.12.18-08.40.59:164][  0]BlueprintLog: New page: Editor Load
+[2020.12.18-08.40.59:425][  0]LocalizationService: Localization service is disabled
+[2020.12.18-08.41.00:757][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.18-08.41.00:758][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.18-08.41.01:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/' took 0.01s
+[2020.12.18-08.41.01:922][  0]SourceControl: Source control is disabled
+[2020.12.18-08.41.01:923][  0]LogUnrealEdMisc: Loading editor; pre map load, took 52.804
+[2020.12.18-08.41.01:937][  0]LightingResults: New page: Lighting Build
+[2020.12.18-08.41.01:953][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-08.41.01:957][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.41.01:961][  0]MapCheck: New page: Map Check
+[2020.12.18-08.41.01:961][  0]LightingResults: New page: Lighting Build
+[2020.12.18-08.41.02:027][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022127F6DE00), frame # 0
+[2020.12.18-08.41.02:027][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022127FB8CC0), frame # 0
+[2020.12.18-08.41.02:029][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.12.18-08.41.02:410][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-08.41.02:410][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002213167F200), frame # 0
+[2020.12.18-08.41.02:410][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022131B2C7C0), frame # 0
+[2020.12.18-08.41.02:476][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.18-08.41.02:506][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.12.18-08.41.02:507][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.18-08.41.02:508][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.119ms to complete.
+[2020.12.18-08.41.02:509][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.586
+[2020.12.18-08.41.03:173][  0]LogUnrealEdMisc: Total Editor Startup Time, took 54.055
+[2020.12.18-08.41.03:441][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.41.03:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.41.03:461][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.41.03:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.41.03:492][  0]LogCollectionManager: Loaded 0 collections in 0.002275 seconds
+[2020.12.18-08.41.03:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Collections/' took 0.00s
+[2020.12.18-08.41.03:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/Developers/ago25/Collections/' took 0.00s
+[2020.12.18-08.41.03:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/Collections/' took 0.00s
+[2020.12.18-08.41.03:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0216 seconds. Added 3429 classes and 823 folders.
+[2020.12.18-08.41.03:571][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.12.18-08.41.04:802][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.12.18-08.41.04:815][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.12.18-08.41.05:048][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.12.18-08.41.05:048][  0]LogLoad: (Engine Initialization) Total time: 55.93 seconds
+[2020.12.18-08.41.05:048][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.18-08.41.05:119][  0]LogAssetRegistry: Asset discovery search completed in 21.1780 seconds
+[2020.12.18-08.41.05:124][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.12.18-08.41.05:137][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.18-08.41.05:163][  0]LogSlate: Took 0.009224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.18-08.41.05:177][  0]LogSlate: Took 0.011949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.18-08.41.05:193][  0]LogSlate: Took 0.009086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.18-08.41.06:154][  0]LogRenderer: Reallocating scene render targets to support 788x492 Format 10 NumSamples 1 (Frame:1).
+[2020.12.18-08.41.06:154][  0]LogSlate: Took 0.036487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.18-08.41.06:628][  2]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.18-08.42.27:812][422]LogRenderer: Reallocating scene render targets to support 1188x556 Format 10 NumSamples 1 (Frame:181).
+[2020.12.18-08.43.32:010][804]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.18-08.43.32:041][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.18-08.43.32:055][804]PIE: New page: PIE session: ThirdPersonExampleMap (18 Dec 2020, 10:43:32)
+[2020.12.18-08.43.32:062][804]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.18-08.43.32:065][804]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.18-08.43.32:067][804]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-08.43.32:090][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023061s)
+[2020.12.18-08.43.32:092][804]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-08.43.32:093][804]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022139284E00), frame # 3804
+[2020.12.18-08.43.32:093][804]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002216A9E6340), frame # 3804
+[2020.12.18-08.43.32:094][804]LogPlayLevel: PIE: World Init took: (0.003592s)
+[2020.12.18-08.43.32:094][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027574s)
+[2020.12.18-08.43.32:104][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.12.18-08.43.32:108][804]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-08.43.32:108][804]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-08.43.32:108][804]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-08.43.32:109][804]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-08.43.32:109][804]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-08.43.32:109][804]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-08.43.32:109][804]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-08.43.32:109][804]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-08.43.32:109][804]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-08.43.32:109][804]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-08.43.32:116][804]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-08.43.32:116][804]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-08.43.32:117][804]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-08.43.32:117][804]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-08.43.32:117][804]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-08.43.32:117][804]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-08.43.32:117][804]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-08.43.32:117][804]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-08.43.32:144][804]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-08.43.32:144][804]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-08.43.32:144][804]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-08.43.32:144][804]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-08.43.32:145][804]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-08.43.32:157][804]LogInit: FAudioDevice initialized.
+[2020.12.18-08.43.33:610][804]LogLoad: Game class is 'MyGameMode_C'
+[2020.12.18-08.43.33:624][804]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.18-09.43.33
+[2020.12.18-08.43.33:626][804]LogWorld: Bringing up level for play took: 0.002930
+[2020.12.18-08.43.33:627][804]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.12.18-08.43.33:653][804]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.12.18-08.43.33:751][804]PIE: Server logged in
+[2020.12.18-08.43.33:753][804]PIE: Play in editor total start time 1.72 seconds.
+[2020.12.18-08.43.42:630][652]LogTemp: Warning: Jump
+[2020.12.18-08.43.44:130][810]LogTemp: Warning: Jump
+[2020.12.18-08.43.45:914][985]LogTemp: Warning: Jump
+[2020.12.18-08.43.57:997][223]LogTemp: Warning: Jump
+[2020.12.18-08.45.06:694][375]LogTemp: Warning: Jump
+[2020.12.18-08.45.15:249][233]LogTemp: Warning: Jump
+[2020.12.18-08.45.17:944][508]LogTemp: Warning: Jump
+[2020.12.18-08.45.18:380][551]LogTemp: Warning: Jump
+[2020.12.18-08.45.19:540][670]LogTemp: Warning: Jump
+[2020.12.18-08.45.19:820][697]LogTemp: Warning: Jump
+[2020.12.18-08.45.21:326][857]LogTemp: Warning: Jump
+[2020.12.18-08.45.22:449][974]LogTemp: Warning: Jump
+[2020.12.18-08.45.22:869][ 18]LogTemp: Warning: Jump
+[2020.12.18-08.45.24:163][145]LogTemp: Warning: Jump
+[2020.12.18-08.45.24:656][198]LogTemp: Warning: Jump
+[2020.12.18-08.45.27:554][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.45.27:555][484]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-08.45.27:558][484]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-08.45.27:560][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.45.27:570][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.18-08.45.27:573][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.45.27:607][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.45.27:615][484]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022139284E00), frame # 14484
+[2020.12.18-08.45.27:615][484]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002216A9E6340), frame # 14484
+[2020.12.18-08.45.27:619][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.12.18-08.45.27:664][485]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.12.18-08.46.06:739][282]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.18-08.46.06:761][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.18-08.46.06:761][282]PIE: New page: PIE session: ThirdPersonExampleMap (18 Dec 2020, 10:46:06)
+[2020.12.18-08.46.06:761][282]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-08.46.06:775][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014377s)
+[2020.12.18-08.46.06:776][282]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-08.46.06:777][282]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002214B1C8A00), frame # 17282
+[2020.12.18-08.46.06:950][282]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221390F8540), frame # 17282
+[2020.12.18-08.46.06:950][282]LogPlayLevel: PIE: World Init took: (0.174341s)
+[2020.12.18-08.46.06:950][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.188875s)
+[2020.12.18-08.46.06:959][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.12.18-08.46.06:963][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-08.46.06:964][282]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-08.46.06:964][282]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-08.46.06:964][282]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-08.46.06:968][282]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-08.46.06:996][282]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-08.46.06:996][282]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-08.46.06:996][282]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-08.46.06:996][282]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-08.46.06:996][282]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-08.46.07:011][282]LogInit: FAudioDevice initialized.
+[2020.12.18-08.46.07:030][282]LogLoad: Game class is 'MyGameMode_C'
+[2020.12.18-08.46.07:031][282]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.18-09.46.07
+[2020.12.18-08.46.07:032][282]LogWorld: Bringing up level for play took: 0.001022
+[2020.12.18-08.46.07:032][282]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.12.18-08.46.07:048][282]PIE: Server logged in
+[2020.12.18-08.46.07:049][282]PIE: Play in editor total start time 0.289 seconds.
+[2020.12.18-08.46.17:188][291]LogTemp: Warning: Jump
+[2020.12.18-08.46.18:026][376]LogTemp: Warning: Jump
+[2020.12.18-08.46.18:330][408]LogTemp: Warning: Jump
+[2020.12.18-08.46.19:003][477]LogTemp: Warning: Jump
+[2020.12.18-08.49.58:151][530]LogTemp: Warning: Jump
+[2020.12.18-08.49.59:895][709]LogTemp: Warning: Jump
+[2020.12.18-08.50.00:940][814]LogTemp: Warning: Jump
+[2020.12.18-08.50.39:068][832]LogTemp: Warning: Jump
+[2020.12.18-08.50.39:688][894]LogTemp: Warning: Jump
+[2020.12.18-08.51.02:953][163]LogTemp: Warning: Jump
+[2020.12.18-08.51.04:270][297]LogTemp: Warning: Jump
+[2020.12.18-08.51.08:918][761]LogTemp: Warning: Jump
+[2020.12.18-08.51.10:871][954]LogTemp: Warning: Jump
+[2020.12.18-08.51.13:188][181]LogTemp: Warning: Jump
+[2020.12.18-08.51.14:431][303]LogTemp: Warning: Jump
+[2020.12.18-08.51.15:459][410]LogTemp: Warning: Jump
+[2020.12.18-08.51.18:684][720]LogTemp: Warning: Jump
+[2020.12.18-08.51.19:897][842]LogTemp: Warning: Jump
+[2020.12.18-08.51.22:296][ 74]LogTemp: Warning: Jump
+[2020.12.18-08.51.24:624][311]LogTemp: Warning: Jump
+[2020.12.18-08.51.31:934][ 54]LogTemp: Warning: Jump
+[2020.12.18-08.51.56:668][545]LogTemp: Warning: Jump
+[2020.12.18-08.52.16:983][549]LogTemp: Warning: Jump
+[2020.12.18-08.52.19:218][771]LogTemp: Warning: Jump
+[2020.12.18-08.52.20:119][860]LogTemp: Warning: Jump
+[2020.12.18-08.52.20:395][885]LogTemp: Warning: Jump
+[2020.12.18-08.52.25:489][389]LogTemp: Warning: Jump
+[2020.12.18-08.52.25:523][392]LogTemp: Warning: Jump
+[2020.12.18-08.52.26:691][511]LogTemp: Warning: Jump
+[2020.12.18-08.52.27:003][544]LogTemp: Warning: Jump
+[2020.12.18-08.52.28:004][645]LogTemp: Warning: Jump
+[2020.12.18-08.53.02:032][219]LogTemp: Warning: Jump
+[2020.12.18-08.53.02:858][302]LogTemp: Warning: Jump
+[2020.12.18-08.53.04:236][445]LogTemp: Warning: Jump
+[2020.12.18-08.53.05:149][540]LogTemp: Warning: Jump
+[2020.12.18-08.53.05:434][568]LogTemp: Warning: Jump
+[2020.12.18-08.53.09:461][968]LogTemp: Warning: Jump
+[2020.12.18-08.53.16:607][674]LogTemp: Warning: Jump
+[2020.12.18-08.53.18:395][851]LogTemp: Warning: Jump
+[2020.12.18-08.53.21:954][201]LogTemp: Warning: Jump
+[2020.12.18-08.53.42:972][268]LogTemp: Warning: Jump
+[2020.12.18-08.53.44:823][452]LogTemp: Warning: Jump
+[2020.12.18-08.53.46:187][590]LogTemp: Warning: Jump
+[2020.12.18-08.53.48:167][788]LogTemp: Warning: Jump
+[2020.12.18-08.53.48:217][793]LogTemp: Warning: Jump
+[2020.12.18-08.53.50:075][977]LogTemp: Warning: Jump
+[2020.12.18-08.55.06:511][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.55.06:511][596]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-08.55.06:511][596]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-08.55.06:511][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.55.06:518][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.18-08.55.06:520][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.55.06:529][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.55.06:549][596]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000221390F8540), frame # 67596
+[2020.12.18-08.55.06:549][596]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002214B1C8A00), frame # 67596
+[2020.12.18-08.55.06:550][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.12.18-08.55.06:596][597]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.12.18-08.55.17:703][329]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint
+[2020.12.18-08.55.17:863][329]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.12.18-08.55.18:201][329]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.12.18-08.55.18:213][329]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2020.12.18-08.55.19:381][329]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.12.18-08.55.20:774][329]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.12.18-08.55.21:285][329]LogSlate: Took 0.009018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.18-08.55.21:404][329]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.12.18-08.55.21:504][330]LogSlate: Took 0.074128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.18-08.55.35:191][225]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.35:191][225]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.35:994][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player
+[2020.12.18-08.55.37:215][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:215][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:300][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:300][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:379][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:379][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:519][280]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:519][280]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:570][281]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:570][281]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:587][282]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:587][282]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:604][283]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.55.37:604][283]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.55.37:620][284]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.03:923][843]LogRenderer: Reallocating scene render targets to support 1528x556 Format 10 NumSamples 1 (Frame:1566).
+[2020.12.18-08.56.11:524][314]LogSlate: Window 'Details' being destroyed
+[2020.12.18-08.56.19:737][818]LogSlate: Window 'Details' being destroyed
+[2020.12.18-08.56.26:182][242]BlueprintLog: New page: Compile Player
+[2020.12.18-08.56.26:219][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:219][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:222][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:222][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:270][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.12.18-08.56.26:282][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:283][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:283][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:283][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:284][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:284][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:285][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:285][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:295][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:295][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:296][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:296][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-08.56.26:307][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-08.56.26:357][242]LogSlate: Took 0.013490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.18-08.56.37:890][365]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.18-08.56.37:948][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.18-08.56.37:948][365]PIE: New page: PIE session: ThirdPersonExampleMap (18 Dec 2020, 10:56:37)
+[2020.12.18-08.56.37:980][365]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-08.56.37:997][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017290s)
+[2020.12.18-08.56.37:998][365]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-08.56.37:998][365]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221BAC43C00), frame # 73365
+[2020.12.18-08.56.37:998][365]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221BAC3FD80), frame # 73365
+[2020.12.18-08.56.37:998][365]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2020.12.18-08.56.37:999][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018875s)
+[2020.12.18-08.56.38:029][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-08.56.38:032][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-08.56.38:032][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-08.56.38:033][365]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-08.56.38:033][365]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-08.56.38:036][365]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-08.56.38:037][365]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-08.56.38:065][365]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-08.56.38:066][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-08.56.38:066][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-08.56.38:066][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-08.56.38:066][365]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-08.56.38:078][365]LogInit: FAudioDevice initialized.
+[2020.12.18-08.56.38:085][365]LogLoad: Game class is 'MyGameMode_C'
+[2020.12.18-08.56.38:086][365]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.18-09.56.38
+[2020.12.18-08.56.38:087][365]LogWorld: Bringing up level for play took: 0.001015
+[2020.12.18-08.56.38:087][365]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.12.18-08.56.38:091][365]PIE: Server logged in
+[2020.12.18-08.56.38:092][365]PIE: Play in editor total start time 0.179 seconds.
+[2020.12.18-08.56.48:865][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.56.48:865][491]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-08.56.48:865][491]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-08.56.48:865][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.56.48:871][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.18-08.56.48:874][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-08.56.48:900][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-08.56.48:921][491]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000221BAC3FD80), frame # 74491
+[2020.12.18-08.56.48:921][491]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000221BAC43C00), frame # 74491
+[2020.12.18-08.56.48:923][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.12.18-08.56.48:963][492]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.12.18-08.57.07:577][376]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/StealthGame.StealthGameCharacter
+[2020.12.18-08.57.45:481][943]Candidate modules for hot reload:
+[2020.12.18-08.57.45:481][943]  StealthGame
+[2020.12.18-08.57.45:482][943]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=StealthGame,6295 StealthGameEditor Win64 Development -Project="C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject" "C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject"  -IgnoreJunk]
+[2020.12.18-08.57.45:510][943]Warning: Starting HotReload took  0.1s.
+[2020.12.18-09.00.54:869][223]CompilerResultsLog: New page: Compilation - 18 Dec 2020, 11:00:54
+[2020.12.18-09.00.54:880][223]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal).
+[2020.12.18-09.00.54:880][223]CompilerResultsLog: Building StealthGameEditor...
+[2020.12.18-09.00.54:880][223]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-09.00.54:880][223]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.12.18-09.00.54:880][223]CompilerResultsLog:   [1/4] StealthGameCharacter.cpp
+[2020.12.18-09.00.54:880][223]CompilerResultsLog:   [2/4] UE4Editor-StealthGame-6295.lib
+[2020.12.18-09.00.54:880][223]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-6295.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-6295.exp
+[2020.12.18-09.00.54:880][223]CompilerResultsLog:   [3/4] UE4Editor-StealthGame-6295.dll
+[2020.12.18-09.00.54:880][223]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-6295.suppressed.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-6295.suppressed.exp
+[2020.12.18-09.00.54:881][223]CompilerResultsLog:   [4/4] StealthGameEditor.target
+[2020.12.18-09.00.54:881][223]CompilerResultsLog: Total time in Parallel executor: 184.60 seconds
+[2020.12.18-09.00.54:881][223]CompilerResultsLog: Total execution time: 188.43 seconds
+[2020.12.18-09.00.54:881][223]LogMainFrame: MainFrame: Module compiling took 189.499 seconds
+[2020.12.18-09.00.54:942][223]LogHotReload: Re-instancing StealthGameCharacter after hot-reload.
+[2020.12.18-09.00.55:053][223]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2020.12.18-09.00.55:056][223]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.12.18-09.00.55:188][223]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 3430 classes and 825 folders.
+[2020.12.18-09.00.55:189][223]Display: HotReload took 189.8s.
+[2020.12.18-09.01.15:454][303]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.18-09.01.15:484][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.18-09.01.15:484][303]PIE: New page: PIE session: ThirdPersonExampleMap (18 Dec 2020, 11:01:15)
+[2020.12.18-09.01.15:509][303]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-09.01.15:530][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020050s)
+[2020.12.18-09.01.15:531][303]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-09.01.15:531][303]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221C8235200), frame # 92303
+[2020.12.18-09.01.15:531][303]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022139110180), frame # 92303
+[2020.12.18-09.01.15:532][303]LogPlayLevel: PIE: World Init took: (0.001885s)
+[2020.12.18-09.01.15:532][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022381s)
+[2020.12.18-09.01.15:606][303]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-09.01.15:611][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-09.01.15:611][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-09.01.15:612][303]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-09.01.15:612][303]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-09.01.15:617][303]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-09.01.15:648][303]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-09.01.15:648][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-09.01.15:648][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-09.01.15:648][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-09.01.15:649][303]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-09.01.15:663][303]LogInit: FAudioDevice initialized.
+[2020.12.18-09.01.15:672][303]LogLoad: Game class is 'MyGameMode_C'
+[2020.12.18-09.01.15:673][303]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.18-10.01.15
+[2020.12.18-09.01.15:673][303]LogWorld: Bringing up level for play took: 0.000982
+[2020.12.18-09.01.15:673][303]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.12.18-09.01.15:678][303]PIE: Server logged in
+[2020.12.18-09.01.15:679][303]PIE: Play in editor total start time 0.2 seconds.
+[2020.12.18-09.01.42:548][162]LogTemp: Warning: Jump
+[2020.12.18-09.01.43:802][299]LogTemp: Warning: Jump
+[2020.12.18-09.03.01:691][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-09.03.01:691][582]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-09.03.01:691][582]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-09.03.01:691][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-09.03.01:700][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.18-09.03.01:704][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-09.03.01:736][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-09.03.01:758][582]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000221C8235200), frame # 103582
+[2020.12.18-09.03.01:758][582]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022139110180), frame # 103582
+[2020.12.18-09.03.01:762][582]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.12.18-09.03.01:810][583]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.12.18-09.04.11:205][727]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.12.18-09.04.11:211][727]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.102
+[2020.12.18-09.04.11:213][727]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Player] ([1] browsable assets)...
+[2020.12.18-09.04.11:242][727]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player]
+[2020.12.18-09.04.11:242][727]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Player]
+[2020.12.18-09.04.11:365][727]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_Auto1922B257349325E536F032BBE6630FBFB.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto1.uasset'
+[2020.12.18-09.04.11:372][727]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Player_AnimBlueprint] ([1] browsable assets)...
+[2020.12.18-09.04.11:407][727]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint]
+[2020.12.18-09.04.11:407][727]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Player_AnimBlueprint]
+[2020.12.18-09.04.11:546][727]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint_Auto1A26BB13045B8AA62AAABF583AE3D00B0.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/AnimStarterPack/Player_AnimBlueprint_Auto1.uasset'
+[2020.12.18-09.04.11:553][727]LogFileHelpers: Auto-saving content packages took 0.342
+[2020.12.18-09.06.56:828][877]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player791FD7DF4CE5A177387872BA81E5CA25.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/ThirdPersonCPP/Blueprints/Player.uasset'
+[2020.12.18-09.06.56:861][877]AssetCheck: New page: Asset Save: Player
+[2020.12.18-09.06.56:861][877]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player
+[2020.12.18-09.06.59:024][  1]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint3BDC4B544F1FEC7D8FD308A98E57912D.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/AnimStarterPack/Player_AnimBlueprint.uasset'
+[2020.12.18-09.06.59:045][  1]AssetCheck: New page: Asset Save: Player_AnimBlueprint
+[2020.12.18-09.06.59:045][  1]LogContentValidation: Display: Validating AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint
+[2020.12.18-09.07.01:688][219]Candidate modules for hot reload:
+[2020.12.18-09.07.01:688][219]  StealthGame
+[2020.12.18-09.07.01:688][219]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=StealthGame,2288 StealthGameEditor Win64 Development -Project="C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject" "C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject"  -IgnoreJunk]
+[2020.12.18-09.07.01:691][219]Warning: Starting HotReload took  0.0s.
+[2020.12.18-09.07.35:396][459]CompilerResultsLog: New page: Compilation - 18 Dec 2020, 11:07:35
+[2020.12.18-09.07.35:396][459]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal).
+[2020.12.18-09.07.35:396][459]CompilerResultsLog: Building StealthGameEditor...
+[2020.12.18-09.07.35:396][459]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-09.07.35:396][459]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.12.18-09.07.35:396][459]CompilerResultsLog:   [1/4] StealthGameCharacter.cpp
+[2020.12.18-09.07.35:396][459]CompilerResultsLog:   [2/4] UE4Editor-StealthGame-2288.lib
+[2020.12.18-09.07.35:396][459]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-2288.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-2288.exp
+[2020.12.18-09.07.35:396][459]CompilerResultsLog:   [3/4] UE4Editor-StealthGame-2288.dll
+[2020.12.18-09.07.35:397][459]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-2288.suppressed.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-2288.suppressed.exp
+[2020.12.18-09.07.35:397][459]CompilerResultsLog:   [4/4] StealthGameEditor.target
+[2020.12.18-09.07.35:397][459]CompilerResultsLog: Total time in Parallel executor: 31.16 seconds
+[2020.12.18-09.07.35:397][459]CompilerResultsLog: Total execution time: 33.34 seconds
+[2020.12.18-09.07.35:397][459]LogMainFrame: MainFrame: Module compiling took 33.713 seconds
+[2020.12.18-09.07.35:437][459]LogHotReload: Re-instancing StealthGameCharacter after hot-reload.
+[2020.12.18-09.07.35:567][459]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2020.12.18-09.07.35:571][459]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.12.18-09.07.35:718][459]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 3430 classes and 825 folders.
+[2020.12.18-09.07.35:718][459]Display: HotReload took 34.0s.
+[2020.12.18-09.11.15:323][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
+[2020.12.18-09.13.14:414][776]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/StealthGame.StealthGameCharacter
+[2020.12.18-09.13.30:921][714]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.12.18-09.13.30:922][714]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.12.18-09.13.55:815][137]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.12.18-09.19.23:045][366]BlueprintLog: New page: Compile Player_AnimBlueprint
+[2020.12.18-09.19.23:103][366]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_2
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.19.23:103][366]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_2
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.19.23:103][366]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_3
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.19.23:103][366]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_3
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.19.23:219][366]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2020.12.18-09.19.37:934][228]BlueprintLog: New page: Compile Player_AnimBlueprint
+[2020.12.18-09.19.37:983][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.19.37:983][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.19.37:983][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_3.CharacterMesh0.Player_AnimBlueprint_C_2
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.19.37:983][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_3.CharacterMesh0.Player_AnimBlueprint_C_2
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.19.38:053][228]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2020.12.18-09.19.40:818][449]Candidate modules for hot reload:
+[2020.12.18-09.19.40:818][449]  StealthGame
+[2020.12.18-09.19.40:819][449]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=StealthGame,8846 StealthGameEditor Win64 Development -Project="C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject" "C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject"  -IgnoreJunk]
+[2020.12.18-09.19.40:821][449]Warning: Starting HotReload took  0.0s.
+[2020.12.18-09.20.24:473][565]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.12.18-09.20.24:475][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.062
+[2020.12.18-09.20.24:475][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Player_AnimBlueprint] ([1] browsable assets)...
+[2020.12.18-09.20.24:490][565]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint]
+[2020.12.18-09.20.24:490][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Player_AnimBlueprint]
+[2020.12.18-09.20.24:606][565]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint_Auto2D520AF8846FC78D55740A9B59DD5DB4B.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/AnimStarterPack/Player_AnimBlueprint_Auto2.uasset'
+[2020.12.18-09.20.24:608][565]LogFileHelpers: Auto-saving content packages took 0.133
+[2020.12.18-09.20.31:803][588]CompilerResultsLog: New page: Compilation - 18 Dec 2020, 11:20:31
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal).
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Parsing headers for StealthGameEditor
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\StealthGame.uproject" "C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\StealthGameEditor\Development\StealthGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ago25\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Reflection code generated for StealthGameEditor in 43.9587919 seconds
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Building StealthGameEditor...
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   [1/6] StealthGameCharacter.cpp
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   [2/6] StealthGameGameMode.cpp
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   [3/6] StealthGameCharacter.gen.cpp
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   [4/6] UE4Editor-StealthGame-8846.lib
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-8846.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-8846.exp
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   [5/6] UE4Editor-StealthGame-8846.dll
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-8846.suppressed.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-8846.suppressed.exp
+[2020.12.18-09.20.31:804][588]CompilerResultsLog:   [6/6] StealthGameEditor.target
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Total time in Parallel executor: 5.09 seconds
+[2020.12.18-09.20.31:804][588]CompilerResultsLog: Total execution time: 50.73 seconds
+[2020.12.18-09.20.31:804][588]LogMainFrame: MainFrame: Module compiling took 50.990 seconds
+[2020.12.18-09.20.31:859][588]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2020.12.18-09.20.31:867][588]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.12.18-09.20.32:026][588]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3430 classes and 825 folders.
+[2020.12.18-09.20.32:026][588]Display: HotReload took 51.2s.
+[2020.12.18-09.20.38:903][705]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.18-09.20.38:931][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.18-09.20.38:931][705]PIE: New page: PIE session: ThirdPersonExampleMap (18 Dec 2020, 11:20:38)
+[2020.12.18-09.20.38:932][705]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-09.20.38:947][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014809s)
+[2020.12.18-09.20.38:948][705]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-09.20.38:948][705]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221BD132800), frame # 119705
+[2020.12.18-09.20.38:948][705]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221BAC3D940), frame # 119705
+[2020.12.18-09.20.38:948][705]LogPlayLevel: PIE: World Init took: (0.001523s)
+[2020.12.18-09.20.38:948][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016576s)
+[2020.12.18-09.20.39:061][705]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2020.12.18-09.20.39:063][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-09.20.39:063][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-09.20.39:064][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-09.20.39:064][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-09.20.39:064][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-09.20.39:064][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-09.20.39:064][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-09.20.39:064][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-09.20.39:064][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-09.20.39:064][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-09.20.39:070][705]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-09.20.39:103][705]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-09.20.39:103][705]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-09.20.39:103][705]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-09.20.39:104][705]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-09.20.39:104][705]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-09.20.39:118][705]LogInit: FAudioDevice initialized.
+[2020.12.18-09.20.39:133][705]LogLoad: Game class is 'MyGameMode_C'
+[2020.12.18-09.20.39:135][705]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.18-10.20.39
+[2020.12.18-09.20.39:135][705]LogWorld: Bringing up level for play took: 0.001296
+[2020.12.18-09.20.39:135][705]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.12.18-09.20.39:140][705]PIE: Server logged in
+[2020.12.18-09.20.39:141][705]PIE: Play in editor total start time 0.216 seconds.
+[2020.12.18-09.20.53:580][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-09.20.53:580][ 24]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-09.20.53:581][ 24]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-09.20.53:581][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-09.20.53:590][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.18-09.20.53:595][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-09.20.53:656][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-09.20.53:657][ 24]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000221BAC3D940), frame # 121024
+[2020.12.18-09.20.53:657][ 24]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000221BD132800), frame # 121024
+[2020.12.18-09.20.53:682][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.12.18-09.20.53:728][ 25]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.12.18-09.21.23:757][214]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:757][214]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:771][215]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:771][215]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:788][216]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:788][216]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:801][217]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:801][217]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:814][218]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:814][218]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:828][219]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:828][219]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:849][220]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.21.23:849][220]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:06B7
+[2020.12.18-09.21.23:863][221]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_4
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:050A
+[2020.12.18-09.23.16:966][874]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.12.18-09.23.16:966][874]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.12.18-09.23.32:585][328]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.12.18-09.24.10:173][127]Candidate modules for hot reload:
+[2020.12.18-09.24.10:173][127]  StealthGame
+[2020.12.18-09.24.10:173][127]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=StealthGame,9528 StealthGameEditor Win64 Development -Project="C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject" "C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject"  -IgnoreJunk]
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: New page: Compilation - 18 Dec 2020, 11:24:29
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal).
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Creating makefile for StealthGameEditor (.uproject file is newer)
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Parsing headers for StealthGameEditor
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\StealthGame.uproject" "C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\StealthGameEditor\Development\StealthGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ago25\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Reflection code generated for StealthGameEditor in 7.4911327 seconds
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Building StealthGameEditor...
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-09.24.29:997][127]CompilerResultsLog: Building 11 actions with 4 processes...
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [1/11] StealthGame.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [2/11] Cover.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [3/11] StealthGameGameMode.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [4/11] StealthGame.init.gen.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [5/11] StealthGameCharacter.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [6/11] Cover.gen.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [7/11] StealthGameCharacter.gen.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [8/11] StealthGameGameMode.gen.cpp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [9/11] UE4Editor-StealthGame-9528.lib
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-9528.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-9528.exp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [10/11] UE4Editor-StealthGame-9528.dll
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-9528.suppressed.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-9528.suppressed.exp
+[2020.12.18-09.24.29:997][127]CompilerResultsLog:   [11/11] StealthGameEditor.target
+[2020.12.18-09.24.29:998][127]CompilerResultsLog: Total time in Parallel executor: 7.83 seconds
+[2020.12.18-09.24.29:998][127]CompilerResultsLog: Total execution time: 19.71 seconds
+[2020.12.18-09.24.29:998][127]LogMainFrame: MainFrame: Module compiling took 19.828 seconds
+[2020.12.18-09.24.30:037][127]LogClass: Could not find existing class Cover in package /Script/StealthGame for HotReload, assuming new class
+[2020.12.18-09.24.30:054][127]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0006 seconds. Added 3 classes and 3 folders.
+[2020.12.18-09.24.30:061][127]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.12.18-09.24.30:228][127]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 3431 classes and 826 folders.
+[2020.12.18-09.24.30:228][127]Display: HotReload took 20.1s.
+[2020.12.18-09.24.30:239][127]Warning: HotReload operation took 20.1s.
+[2020.12.18-09.24.30:288][127]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.12.18-09.24.30:784][128]LogHotReload: New module detected: UE4Editor-StealthGame-9528.dll
+[2020.12.18-09.24.31:019][129]LogHotReload: Starting Hot-Reload from IDE
+[2020.12.18-09.24.31:097][129]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0010 seconds. Added 3 classes and 3 folders.
+[2020.12.18-09.24.31:104][129]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.12.18-09.24.31:207][129]LogContentBrowser: Native class hierarchy populated in 0.0533 seconds. Added 3431 classes and 826 folders.
+[2020.12.18-09.24.31:213][129]Display: HotReload took  0.2s.
+[2020.12.18-09.24.46:247][989]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.12.18-09.24.46:247][989]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.12.18-09.24.57:968][ 44]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.12.18-09.25.13:160][388]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.12.18-09.25.17:837][388]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.18-09.25.23:990][961]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.12.18-09.25.23:990][961]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.12.18-09.27.23:607][  8]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CoverController.CoverController
+[2020.12.18-09.27.24:100][  8]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.12.18-09.29.09:488][803]BlueprintLog: New page: Compile CoverController
+[2020.12.18-09.29.09:718][803]LogUObjectHash: Compacting FUObjectHashTables data took   8.65ms
+[2020.12.18-09.29.25:663][928]BlueprintLog: New page: Compile Player
+[2020.12.18-09.29.25:794][928]LogUObjectHash: Compacting FUObjectHashTables data took   6.95ms
+[2020.12.18-09.29.31:186][284]Candidate modules for hot reload:
+[2020.12.18-09.29.31:186][284]  StealthGame
+[2020.12.18-09.29.31:186][284]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=StealthGame,3505 StealthGameEditor Win64 Development -Project="C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject" "C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject"  -IgnoreJunk]
+[2020.12.18-09.29.31:188][284]Warning: Starting HotReload took  0.0s.
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: New page: Compilation - 18 Dec 2020, 11:29:36
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal).
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: Building StealthGameEditor...
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: Building 3 actions with 4 processes...
+[2020.12.18-09.29.36:599][347]CompilerResultsLog:   [1/3] UE4Editor-StealthGame-3505.lib
+[2020.12.18-09.29.36:599][347]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3505.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3505.exp
+[2020.12.18-09.29.36:599][347]CompilerResultsLog:   [2/3] UE4Editor-StealthGame-3505.dll
+[2020.12.18-09.29.36:599][347]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3505.suppressed.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3505.suppressed.exp
+[2020.12.18-09.29.36:599][347]CompilerResultsLog:   [3/3] StealthGameEditor.target
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: Total time in Parallel executor: 3.27 seconds
+[2020.12.18-09.29.36:599][347]CompilerResultsLog: Total execution time: 5.11 seconds
+[2020.12.18-09.29.36:599][347]LogMainFrame: MainFrame: Module compiling took 5.417 seconds
+[2020.12.18-09.29.36:765][347]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0009 seconds. Added 3 classes and 3 folders.
+[2020.12.18-09.29.36:771][347]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.12.18-09.29.37:010][347]LogContentBrowser: Native class hierarchy populated in 0.0352 seconds. Added 3431 classes and 826 folders.
+[2020.12.18-09.29.37:010][347]Display: HotReload took  5.8s.
+[2020.12.18-09.31.17:270][265]BlueprintLog: New page: Compile Player
+[2020.12.18-09.31.17:275][265]LogBlueprint: Error: [Compiler Player] The type of  Object  is undetermined.  Connect something to  Cast To CoverController  to imply a specific type.
+[2020.12.18-09.31.17:275][265]LogBlueprint: Error: [Compiler Player] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.12.18-09.31.17:435][265]LogUObjectHash: Compacting FUObjectHashTables data took   8.49ms
+[2020.12.18-09.31.21:797][304]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2020.12.18-09.31.21:799][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.080
+[2020.12.18-09.31.21:799][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Player] ([1] browsable assets)...
+[2020.12.18-09.31.21:812][304]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player]
+[2020.12.18-09.31.21:812][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Player]
+[2020.12.18-09.31.21:864][304]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_Auto3D6CC354B4351A0AE9E8B83B25BCDE0E8.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto3.uasset'
+[2020.12.18-09.31.21:866][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Player_AnimBlueprint] ([1] browsable assets)...
+[2020.12.18-09.31.21:877][304]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint]
+[2020.12.18-09.31.21:877][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Player_AnimBlueprint]
+[2020.12.18-09.31.21:980][304]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint_Auto380B40A394114E386566D4C823A11C6D1.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/AnimStarterPack/Player_AnimBlueprint_Auto3.uasset'
+[2020.12.18-09.31.21:983][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoverController] ([1] browsable assets)...
+[2020.12.18-09.31.21:994][304]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CoverController.CoverController]
+[2020.12.18-09.31.21:994][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoverController]
+[2020.12.18-09.31.22:015][304]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/CoverController_Auto34B6027584BDC940414DC52A736A6E054.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/CoverController_Auto3.uasset'
+[2020.12.18-09.31.22:017][304]LogFileHelpers: Auto-saving content packages took 0.218
+[2020.12.18-09.33.26:094][190]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.18-09.40.17:314][  5]BlueprintLog: New page: Compile Player
+[2020.12.18-09.40.17:413][  5]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2020.12.18-09.42.10:821][354]BlueprintLog: New page: Compile Player
+[2020.12.18-09.42.10:923][354]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2020.12.18-09.43.17:068][482]LogEditorTransaction: Undo Delete current selection
+[2020.12.18-09.43.17:235][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.12.18-09.43.43:580][128]BlueprintLog: New page: Compile Player
+[2020.12.18-09.43.43:683][128]LogUObjectHash: Compacting FUObjectHashTables data took   8.07ms
+[2020.12.18-09.44.28:570][304]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2020.12.18-09.44.28:573][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.063
+[2020.12.18-09.44.28:573][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Player] ([1] browsable assets)...
+[2020.12.18-09.44.28:600][304]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player]
+[2020.12.18-09.44.28:601][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Player]
+[2020.12.18-09.44.28:668][304]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_Auto4C3642EA14CF5296E161701ACF376A7E5.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto4.uasset'
+[2020.12.18-09.44.28:671][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Player_AnimBlueprint] ([1] browsable assets)...
+[2020.12.18-09.44.28:699][304]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint]
+[2020.12.18-09.44.28:699][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Player_AnimBlueprint]
+[2020.12.18-09.44.28:813][304]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint_Auto47B35FADD402C5DF2FA7D5B81B5031A0B.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/AnimStarterPack/Player_AnimBlueprint_Auto4.uasset'
+[2020.12.18-09.44.28:815][304]LogFileHelpers: Auto-saving content packages took 0.243
+[2020.12.18-09.53.34:550][519]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2020.12.18-09.53.35:112][519]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-09.53.35:112][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-09.53.35:801][520]LogRenderer: Reallocating scene render targets to support 1528x920 Format 10 NumSamples 1 (Frame:1).
+[2020.12.18-09.53.43:773][135]LogStaticMesh: Building static mesh 1M_Cube...
+[2020.12.18-09.53.43:797][135]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2020.12.18-09.56.07:251][795]LogUObjectHash: Compacting FUObjectHashTables data took   8.49ms
+[2020.12.18-09.56.07:367][795]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/ThirdPersonExampleMap_Auto51573F07446C45B070CB77A97C13DDE06.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2020.12.18-09.56.07:377][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.321
+[2020.12.18-09.56.07:377][795]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.321
+[2020.12.18-09.56.07:378][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/1M_Cube] ([1] browsable assets)...
+[2020.12.18-09.56.07:393][795]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/1M_Cube.1M_Cube]
+[2020.12.18-09.56.07:393][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/1M_Cube]
+[2020.12.18-09.56.07:435][795]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/1M_Cube_Auto53FC490314B11DE04A841B5B7A5D37153.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/Geometry/Meshes/1M_Cube_Auto5.uasset'
+[2020.12.18-09.56.07:437][795]LogFileHelpers: Auto-saving content packages took 0.059
+[2020.12.18-10.00.05:983][502]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/1M_Cube2259550A4A30F74DC22369ADF430E52C.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/Geometry/Meshes/1M_Cube.uasset'
+[2020.12.18-10.00.06:017][502]AssetCheck: New page: Asset Save: 1M_Cube
+[2020.12.18-10.00.06:017][502]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2020.12.18-10.00.19:432][314]BlueprintLog: New page: Compile CoverController
+[2020.12.18-10.00.19:552][314]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2020.12.18-10.00.23:917][545]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player0C9AEC1A47E0EA61B438D68F93FDC6B0.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Content/ThirdPersonCPP/Blueprints/Player.uasset'
+[2020.12.18-10.00.23:946][545]AssetCheck: New page: Asset Save: Player
+[2020.12.18-10.00.23:946][545]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player
+[2020.12.18-10.00.29:279][900]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-10.00.29:279][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-10.02.06:225][818]BlueprintLog: New page: Compile Player
+[2020.12.18-10.02.06:311][818]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2020.12.18-10.02.15:767][543]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.18-10.02.15:792][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.18-10.02.15:792][543]PIE: New page: PIE session: ThirdPersonExampleMap (18 Dec 2020, 12:02:15)
+[2020.12.18-10.02.15:792][543]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-10.02.15:809][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016371s)
+[2020.12.18-10.02.15:810][543]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.18-10.02.15:810][543]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022138623A00), frame # 206543
+[2020.12.18-10.02.15:810][543]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221D1B10CC0), frame # 206543
+[2020.12.18-10.02.15:811][543]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2020.12.18-10.02.15:811][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018409s)
+[2020.12.18-10.02.15:858][543]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.18-10.02.15:863][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.18-10.02.15:863][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.18-10.02.15:864][543]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.18-10.02.15:864][543]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 1: FrontRight
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 4: BackLeft
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 5: BackRight
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 6: SideLeft
+[2020.12.18-10.02.15:869][543]LogAudioMixer: Display: 7: SideRight
+[2020.12.18-10.02.15:898][543]LogAudioMixer: Display: Using Audio Device Altoparlanti (Logitech G430 Gaming Headset)
+[2020.12.18-10.02.15:898][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.18-10.02.15:898][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.18-10.02.15:898][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.18-10.02.15:899][543]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.18-10.02.15:911][543]LogInit: FAudioDevice initialized.
+[2020.12.18-10.02.15:926][543]LogLoad: Game class is 'MyGameMode_C'
+[2020.12.18-10.02.15:928][543]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.18-11.02.15
+[2020.12.18-10.02.15:928][543]LogWorld: Bringing up level for play took: 0.001202
+[2020.12.18-10.02.15:928][543]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.12.18-10.02.15:933][543]PIE: Server logged in
+[2020.12.18-10.02.15:934][543]PIE: Play in editor total start time 0.146 seconds.
+[2020.12.18-10.02.38:760][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-10.02.38:760][ 47]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.18-10.02.38:761][ 47]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.18-10.02.38:761][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-10.02.38:771][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.18-10.02.38:777][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.18-10.02.38:833][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.18-10.02.38:834][ 47]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000221D1B10CC0), frame # 209047
+[2020.12.18-10.02.38:834][ 47]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022138623A00), frame # 209047
+[2020.12.18-10.02.38:839][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.12.18-10.02.38:887][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.12.18-10.03.25:279][673]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.12.18-10.03.25:285][673]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.12.18-10.06.30:972][912]LogUObjectHash: Compacting FUObjectHashTables data took   7.32ms
+[2020.12.18-10.06.30:976][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.129
+[2020.12.18-10.06.30:976][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Player] ([1] browsable assets)...
+[2020.12.18-10.06.30:988][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player]
+[2020.12.18-10.06.30:988][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Player]
+[2020.12.18-10.06.31:051][912]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_Auto6B73E786843D91B5499BF95A21D22CCD0.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto6.uasset'
+[2020.12.18-10.06.31:053][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Player_AnimBlueprint] ([1] browsable assets)...
+[2020.12.18-10.06.31:067][912]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint]
+[2020.12.18-10.06.31:067][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Player_AnimBlueprint]
+[2020.12.18-10.06.31:177][912]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint_Auto60C87B93B4BD7420EC8EA9AA429B5F73A.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/AnimStarterPack/Player_AnimBlueprint_Auto6.uasset'
+[2020.12.18-10.06.31:181][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CoverController] ([1] browsable assets)...
+[2020.12.18-10.06.31:193][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CoverController.CoverController]
+[2020.12.18-10.06.31:193][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/CoverController]
+[2020.12.18-10.06.31:218][912]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/CoverController_Auto64892AEA747AF00AC123A2B8C7A668B38.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/CoverController_Auto6.uasset'
+[2020.12.18-10.06.31:220][912]LogFileHelpers: Auto-saving content packages took 0.245
+[2020.12.18-10.08.45:041][990]BlueprintLog: New page: Compile Player
+[2020.12.18-10.08.45:160][990]LogUObjectHash: Compacting FUObjectHashTables data took   6.71ms
+[2020.12.18-10.16.31:822][769]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2020.12.18-10.16.31:828][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.117
+[2020.12.18-10.16.31:829][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Player] ([1] browsable assets)...
+[2020.12.18-10.16.31:873][769]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/Player.Player]
+[2020.12.18-10.16.31:873][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Player]
+[2020.12.18-10.16.31:939][769]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_Auto7FF6364014EE0C128E8636197DA30B647.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto7.uasset'
+[2020.12.18-10.16.31:943][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Player_AnimBlueprint] ([1] browsable assets)...
+[2020.12.18-10.16.31:957][769]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint]
+[2020.12.18-10.16.31:957][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Player_AnimBlueprint]
+[2020.12.18-10.16.32:070][769]LogSavePackage: Moving '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Player_AnimBlueprint_Auto724D805824A8E82822949E6A8413167DE.tmp' to '../../../../../../Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/Saved/Autosaves/Game/AnimStarterPack/Player_AnimBlueprint_Auto7.uasset'
+[2020.12.18-10.16.32:072][769]LogFileHelpers: Auto-saving content packages took 0.244
+[2020.12.18-10.18.50:966][178]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.18-10.53.00:515][613]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.12.18-10.53.33:949][613]LogSlate: Window 'Pick Curve Class' being destroyed
+[2020.12.18-10.54.07:995][ 18]LogSlate: Window 'Pick Curve Class' being destroyed
+[2020.12.18-10.54.32:127][126]Candidate modules for hot reload:
+[2020.12.18-10.54.32:127][126]  StealthGame
+[2020.12.18-10.54.32:127][126]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=StealthGame,3781 StealthGameEditor Win64 Development -Project="C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject" "C:/Users/ago25/Desktop/TheSign/Curriculari/UnrealEngine/GitStealthGame/StealthGame_Unreal/StealthGame/StealthGame.uproject"  -IgnoreJunk]
+[2020.12.18-10.54.32:132][126]Warning: Starting HotReload took  0.0s.
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: New page: Compilation - 18 Dec 2020, 12:55:59
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal).
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Parsing headers for StealthGameEditor
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\StealthGame.uproject" "C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\StealthGameEditor\Development\StealthGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ago25\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Reflection code generated for StealthGameEditor in 46.233849 seconds
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Building StealthGameEditor...
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [1/7] StealthGame.init.gen.cpp
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [2/7] StealthGameCharacter.cpp
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [3/7] StealthGameGameMode.cpp
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [4/7] StealthGameCharacter.gen.cpp
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [5/7] UE4Editor-StealthGame-3781.lib
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3781.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3781.exp
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [6/7] UE4Editor-StealthGame-3781.dll
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:      Creazione della libreria C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3781.suppressed.lib e dell'oggetto C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\UE4Editor-StealthGame-3781.suppressed.exp
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog:   [7/7] StealthGameEditor.target
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Total time in Parallel executor: 38.25 seconds
+[2020.12.18-10.55.59:097][ 93]CompilerResultsLog: Total execution time: 86.71 seconds
+[2020.12.18-10.55.59:097][ 93]LogMainFrame: MainFrame: Module compiling took 86.975 seconds
+[2020.12.18-10.55.59:146][ 93]LogClass: Could not find existing class StealthGameCharacter in package /Script/StealthGame for HotReload, assuming new class
+[2020.12.18-10.55.59:146][ 93]LogClass: Function CanJumpCharacter is new.
+[2020.12.18-10.55.59:166][ 93]LogHotReload: Re-instancing StealthGameCharacter after hot-reload.
+[2020.12.18-10.55.59:537][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:537][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:538][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:542][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:542][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:542][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:543][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:543][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:544][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:545][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:545][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:546][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:583][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:584][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:584][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:585][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:585][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:585][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:586][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:586][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:586][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:587][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:587][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:587][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_10.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:588][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:588][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:588][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:617][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:617][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:617][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:619][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:619][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.Player_C_0.CharacterMesh0.Player_AnimBlueprint_C_1
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:620][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:620][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:620][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:621][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0936
+[2020.12.18-10.55.59:621][ 93]LogScript: Warning: Attempted to access missing property 'crouchButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:0955
+[2020.12.18-10.55.59:621][ 93]LogScript: Warning: Attempted to access missing property 'jumpButtonDown'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Player_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.Player_C_11.CharacterMesh0.Player_AnimBlueprint_C_0
+	Function /Game/AnimStarterPack/Player_AnimBlueprint.Player_AnimBlueprint_C:ExecuteUbergraph_Player_AnimBlueprint:09F9
+[2020.12.18-10.55.59:668][ 93]LogContentBrowser: Native class hierarchy updated for 'StealthGame' in 0.0010 seconds. Added 3 classes and 3 folders.
+[2020.12.18-10.55.59:675][ 93]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.12.18-10.56.04:838][ 93]LogThreadingWindows: Error: Runnable thread PoolThread 11 crashed.
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: === Critical error: ===
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: 
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: Fatal error!
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: 
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000001a
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: 
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffbac480de8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffbac575a85 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffbac576052 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffbac57486a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffbac573cfe UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffb8544c39c UE4Editor-HotReload.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffb8544c13e UE4Editor-HotReload.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffb9f97630d UE4Editor-Core.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffb9fd404db UE4Editor-Core.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffb9fd37eb0 UE4Editor-Core.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffc11b27034 KERNEL32.DLL!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: [Callstack] 0x00007ffc133bd0d1 ntdll.dll!UnknownFunction []
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: 
+[2020.12.18-10.56.04:838][ 93]LogWindows: Error: Crash in runnable thread PoolThread 11
+[2020.12.18-10.56.04:881][ 93]LogExit: Executing StaticShutdownAfterError
+[2020.12.18-10.56.04:881][ 93]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.12.18-10.56.04:881][ 93]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.12.18-10.56.04:894][ 93]Log file closed, 12/18/20 11:56:04

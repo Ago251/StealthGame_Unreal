@@ -17,6 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 	STEALTHGAME_API UClass* Z_Construct_UClass_AStealthGameCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_StealthGame();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_UCurveVector_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -29,11 +32,29 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		*(bool*)Z_Param__Result=P_THIS->CanJumpCharacter(Z_Param_jumpButton,Z_Param_crouchButton);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AStealthGameCharacter::execHandleProgressCameraOffset)
+	{
+		P_GET_STRUCT(FVector,Z_Param_Offset);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->HandleProgressCameraOffset(Z_Param_Offset);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AStealthGameCharacter::execHandleProgressArmLength)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_Length);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->HandleProgressArmLength(Z_Param_Length);
+		P_NATIVE_END;
+	}
 	void AStealthGameCharacter::StaticRegisterNativesAStealthGameCharacter()
 	{
 		UClass* Class = AStealthGameCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CanJumpCharacter", &AStealthGameCharacter::execCanJumpCharacter },
+			{ "HandleProgressArmLength", &AStealthGameCharacter::execHandleProgressArmLength },
+			{ "HandleProgressCameraOffset", &AStealthGameCharacter::execHandleProgressCameraOffset },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -93,6 +114,72 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics
+	{
+		struct StealthGameCharacter_eventHandleProgressArmLength_Parms
+		{
+			float Length;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Length;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::NewProp_Length = { "Length", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StealthGameCharacter_eventHandleProgressArmLength_Parms, Length), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::NewProp_Length,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// End of APawn interface\n" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+		{ "ToolTip", "End of APawn interface" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStealthGameCharacter, nullptr, "HandleProgressArmLength", nullptr, nullptr, sizeof(StealthGameCharacter_eventHandleProgressArmLength_Parms), Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics
+	{
+		struct StealthGameCharacter_eventHandleProgressCameraOffset_Parms
+		{
+			FVector Offset;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Offset;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::NewProp_Offset = { "Offset", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StealthGameCharacter_eventHandleProgressCameraOffset_Parms, Offset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::NewProp_Offset,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStealthGameCharacter, nullptr, "HandleProgressCameraOffset", nullptr, nullptr, sizeof(StealthGameCharacter_eventHandleProgressCameraOffset_Parms), Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AStealthGameCharacter_NoRegister()
 	{
 		return AStealthGameCharacter::StaticClass();
@@ -104,6 +191,14 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OffsetCurve_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OffsetCurve;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementCurve_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MovementCurve;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_jumpButtonDown_MetaData[];
 #endif
@@ -140,6 +235,8 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStealthGameCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AStealthGameCharacter_CanJumpCharacter, "CanJumpCharacter" }, // 1919913920
+		{ &Z_Construct_UFunction_AStealthGameCharacter_HandleProgressArmLength, "HandleProgressArmLength" }, // 2386437128
+		{ &Z_Construct_UFunction_AStealthGameCharacter_HandleProgressCameraOffset, "HandleProgressCameraOffset" }, // 1132518982
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::Class_MetaDataParams[] = {
@@ -148,6 +245,20 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		{ "ModuleRelativePath", "StealthGameCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_OffsetCurve_MetaData[] = {
+		{ "Category", "Timeline" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_OffsetCurve = { "OffsetCurve", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStealthGameCharacter, OffsetCurve), Z_Construct_UClass_UCurveVector_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_OffsetCurve_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_OffsetCurve_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_MovementCurve_MetaData[] = {
+		{ "Category", "Timeline" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_MovementCurve = { "MovementCurve", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStealthGameCharacter, MovementCurve), Z_Construct_UClass_UCurveFloat_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_MovementCurve_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_MovementCurve_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown_MetaData[] = {
 		{ "Category", "Movement" },
@@ -211,6 +322,8 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStealthGameCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStealthGameCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_OffsetCurve,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_MovementCurve,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_jumpButtonDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_crouchButtonDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_BaseLookUpRate,
@@ -245,7 +358,7 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStealthGameCharacter, 1367054357);
+	IMPLEMENT_CLASS(AStealthGameCharacter, 2315664796);
 	template<> STEALTHGAME_API UClass* StaticClass<AStealthGameCharacter>()
 	{
 		return AStealthGameCharacter::StaticClass();

@@ -7,6 +7,8 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "Components/TimelineComponent.h"
+#include "Engine.h"
 #include "DrawDebugHelpers.h"
 #include "GameFramework/SpringArmComponent.h"
 
@@ -48,6 +50,36 @@ AStealthGameCharacter::AStealthGameCharacter()
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
 
+void AStealthGameCharacter::BeginPlay() {
+	Super::BeginPlay();
+	GEngine->AddOnScreenDebugMessage(0, 100, FColor::Green, TEXT("Begin play"));
+	if (MovementCurve && OffsetCurve) {
+		GEngine->AddOnScreenDebugMessage(1, 100, FColor::Green, TEXT("Registering"));
+		FOnTimelineFloat ProgressFunctionLength;
+		ProgressFunctionLength.BindUFunction(this, "HandleProgressArmLength");
+		AimTimeline.AddInterpFloat(MovementCurve, ProgressFunctionLength);
+
+		FOnTimelineVector ProgressFunctionOffset;
+		ProgressFunctionOffset.BindUFunction(this, "HandleProgressCameraOffset");
+		AimTimeline.AddInterpVector(OffsetCurve, ProgressFunctionOffset);
+	}
+}
+
+void AStealthGameCharacter::Tick(float DeltaTime) {
+	Super::Tick(DeltaTime);
+	AimTimeline.TickTimeline(DeltaTime);
+}
+
+void AStealthGameCharacter::HandleProgressArmLength(float Length) {
+	GEngine->AddOnScreenDebugMessage(2, 100, FColor::Green, TEXT("Aim In"));
+	CameraBoom->TargetArmLength = Length;
+}
+
+void AStealthGameCharacter::HandleProgressCameraOffset(FVector Offset) {
+	GEngine->AddOnScreenDebugMessage(3, 100, FColor::Green, TEXT("Aim In"));
+	CameraBoom->SocketOffset = Offset;
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -62,6 +94,8 @@ void AStealthGameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	}
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AStealthGameCharacter::FireCharacter);
+	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AStealthGameCharacter::AimIn);
+	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AStealthGameCharacter::AimOut);
 
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AStealthGameCharacter::CrouchCharacter);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AStealthGameCharacter::StandUpCharacter);
@@ -140,6 +174,35 @@ bool AStealthGameCharacter::CanJumpCharacter(bool jumpButton, bool crouchButton)
 	}
 	return false;
 }
+
+void AStealthGameCharacter::AimIn() {
+	//GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Aim In"));
+	bUseControllerRotationYaw = true;
+	GetCharacterMovement()->bOrientRotationToMovement = false;
+	// GetCharacterMovement()->MaxWalkSpeed = MaxSpeedAiming;
+	// bIsAiming = true;
+	// if (bIsInCover) {
+	// 	GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Aim from cover"));
+	// 	StopCrouchCharacter();
+	// }
+	AimTimeline.Play();
+	//OnCharacterAim.Broadcast();
+}
+
+void AStealthGameCharacter::AimOut() {
+	//GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Aim Out"));
+	bUseControllerRotationYaw = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	// GetCharacterMovement()->MaxWalkSpeed = MaxSpeedWalkingOrig;
+	//bIsAiming = false;
+	// if (bIsInCover) {
+	// 	GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Stop aim from cover"));
+	// 	CrouchCharacter();
+	// }
+	AimTimeline.Reverse();
+	//OnCharacterStopAim.Broadcast();
+}
+
 
 void AStealthGameCharacter::FireCharacter(){
 	FHitResult outHit;

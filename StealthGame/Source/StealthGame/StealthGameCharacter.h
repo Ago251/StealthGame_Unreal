@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/TimelineComponent.h"
 #include "StealthGameCharacter.generated.h"
 
 DECLARE_MULTICAST_DELEGATE(FGameStateCharacter)
@@ -36,6 +37,18 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Movement)
 	bool jumpButtonDown;
+
+	UPROPERTY(EditAnywhere, Category = "Timeline")
+	UCurveFloat* MovementCurve;
+
+	UPROPERTY(EditAnywhere, Category = "Timeline")
+	UCurveVector* OffsetCurve;
+
+	/** Timeline use for aiming: change the visual from 360 to right shoulder*/
+	FTimeline AimTimeline;
+
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaSeconds) override;
 
 protected:
 	/** Resets HMD orientation in VR. */
@@ -70,6 +83,14 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	UFUNCTION()
+	void HandleProgressArmLength(float Length);
+	
+	UFUNCTION()
+	void HandleProgressCameraOffset(FVector Offset);
+
+	void AimIn();
+	void AimOut();
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
