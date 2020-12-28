@@ -46,6 +46,9 @@ AStealthGameCharacter::AStealthGameCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	WeaponMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("WeaponMesh"));
+	WeaponMesh->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, "hand_r");
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -210,8 +213,10 @@ void AStealthGameCharacter::FireCharacter(){
 	FVector start = FollowCamera->GetComponentLocation();
 	FVector forwardVector = FollowCamera->GetForwardVector();
 
-	start = start + (forwardVector * CameraBoom->TargetArmLength);
-	FVector end = start + (forwardVector * 5000.f);
+	// start = start + (forwardVector * CameraBoom->TargetArmLength);
+	// FVector end = start + (forwardVector * 5000.f);
+	start = WeaponMesh->GetComponentLocation();
+	FVector end = start + (WeaponMesh->GetRightVector() * WeaponRange);
 
 	FCollisionQueryParams collisionParams;
 	collisionParams.AddIgnoredActor(this->GetOwner());

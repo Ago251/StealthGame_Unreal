@@ -15,6 +15,9 @@ public:
 	// Sets default values for this actor's properties
 	ACover();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh")
+	UStaticMeshComponent* SM;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
