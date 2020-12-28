@@ -112,5 +112,7 @@ public:
 	void CrouchCharacter();
 	void JumpCharacter();
 	void ReleaseJumpCharacter();
+	bool HitCover();
+	void Cover();
 };
 

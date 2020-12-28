@@ -10,6 +10,7 @@
 #include "Components/TimelineComponent.h"
 #include "Engine.h"
 #include "DrawDebugHelpers.h"
+#include "Cover.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -100,6 +101,8 @@ void AStealthGameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AStealthGameCharacter::AimIn);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AStealthGameCharacter::AimOut);
 
+	PlayerInputComponent->BindAction("Cover", IE_Pressed, this, &AStealthGameCharacter::Cover);
+
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AStealthGameCharacter::CrouchCharacter);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AStealthGameCharacter::StandUpCharacter);
 
@@ -179,31 +182,15 @@ bool AStealthGameCharacter::CanJumpCharacter(bool jumpButton, bool crouchButton)
 }
 
 void AStealthGameCharacter::AimIn() {
-	//GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Aim In"));
 	bUseControllerRotationYaw = true;
 	GetCharacterMovement()->bOrientRotationToMovement = false;
-	// GetCharacterMovement()->MaxWalkSpeed = MaxSpeedAiming;
-	// bIsAiming = true;
-	// if (bIsInCover) {
-	// 	GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Aim from cover"));
-	// 	StopCrouchCharacter();
-	// }
 	AimTimeline.Play();
-	//OnCharacterAim.Broadcast();
 }
 
 void AStealthGameCharacter::AimOut() {
-	//GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Aim Out"));
 	bUseControllerRotationYaw = false;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
-	// GetCharacterMovement()->MaxWalkSpeed = MaxSpeedWalkingOrig;
-	//bIsAiming = false;
-	// if (bIsInCover) {
-	// 	GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, TEXT("Stop aim from cover"));
-	// 	CrouchCharacter();
-	// }
 	AimTimeline.Reverse();
-	//OnCharacterStopAim.Broadcast();
 }
 
 
@@ -213,8 +200,6 @@ void AStealthGameCharacter::FireCharacter(){
 	FVector start = FollowCamera->GetComponentLocation();
 	FVector forwardVector = FollowCamera->GetForwardVector();
 
-	// start = start + (forwardVector * CameraBoom->TargetArmLength);
-	// FVector end = start + (forwardVector * 5000.f);
 	start = WeaponMesh->GetComponentLocation();
 	FVector end = start + (WeaponMesh->GetRightVector() * WeaponRange);
 
@@ -234,6 +219,39 @@ void AStealthGameCharacter::MoveForward(float Value)
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
+	}
+}
+
+bool AStealthGameCharacter::HitCover(){
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+
+	FVector start = FollowCamera->GetComponentLocation();
+	FVector forwardVector = FollowCamera->GetForwardVector();
+
+	start = start + (forwardVector * CameraBoom->TargetArmLength);
+	FVector end = start + (forwardVector * 5000.f);
+
+	FHitResult Hit;
+	bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, start, end, ECC_Pawn, Params);
+
+	if(bHit){
+		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 1, 0, 1);
+		ACover* HitCover = Cast<ACover>(Hit.Actor.Get());
+		FString name = Hit.Actor->GetName();
+		if (HitCover) {
+			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Find Cover"));
+			return true;
+		}
+	}
+
+	GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Not find cover"));
+	return false;
+}
+
+void AStealthGameCharacter::Cover(){
+	if(HitCover()){
+
 	}
 }
 
