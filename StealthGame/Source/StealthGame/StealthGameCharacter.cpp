@@ -10,6 +10,7 @@
 #include "Components/TimelineComponent.h"
 #include "Engine.h"
 #include "DrawDebugHelpers.h"
+#include "Math/UnrealMathUtility.h"
 #include "Cover.h"
 #include "GameFramework/SpringArmComponent.h"
 
@@ -72,6 +73,11 @@ void AStealthGameCharacter::BeginPlay() {
 void AStealthGameCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 	AimTimeline.TickTimeline(DeltaTime);
+	if(moveToCover){
+		if(MoveTo(coverDestination, DeltaTime)){
+			moveToCover = false;
+		}
+	}
 }
 
 void AStealthGameCharacter::HandleProgressArmLength(float Length) {
@@ -193,7 +199,6 @@ void AStealthGameCharacter::AimOut() {
 	AimTimeline.Reverse();
 }
 
-
 void AStealthGameCharacter::FireCharacter(){
 	FHitResult outHit;
 
@@ -222,7 +227,7 @@ void AStealthGameCharacter::MoveForward(float Value)
 	}
 }
 
-bool AStealthGameCharacter::HitCover(){
+ACover* AStealthGameCharacter::HitCover(UPARAM(ref) FHitResult Hit){
 	FCollisionQueryParams Params;
 	Params.AddIgnoredActor(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 
@@ -232,27 +237,41 @@ bool AStealthGameCharacter::HitCover(){
 	start = start + (forwardVector * CameraBoom->TargetArmLength);
 	FVector end = start + (forwardVector * 5000.f);
 
-	FHitResult Hit;
 	bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, start, end, ECC_Pawn, Params);
 
 	if(bHit){
 		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 1, 0, 1);
-		ACover* HitCover = Cast<ACover>(Hit.Actor.Get());
+		ACover* hitCover = Cast<ACover>(Hit.Actor.Get());
 		FString name = Hit.Actor->GetName();
-		if (HitCover) {
+		if (hitCover) {
 			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Find Cover"));
-			return true;
+			return hitCover;
 		}
 	}
 
 	GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Not find cover"));
-	return false;
+	return NULL;
 }
 
 void AStealthGameCharacter::Cover(){
-	if(HitCover()){
-
+	FHitResult Hit;
+	ACover* cover = HitCover(Hit);
+	if(cover != NULL){
+		startLocation = GetActorLocation();
+		coverDestination = cover->GetNearbySocketPosition(GetActorLocation());
+		moveToCover = true;
 	}
+}
+
+bool AStealthGameCharacter::MoveTo(FVector destination, float DeltaTime){
+	destination = FVector(destination.X, destination.Y, startLocation.Z);
+	SetActorLocation(FMath::Lerp(startLocation, destination, time));
+	if(time >= 1){
+		time = 0;
+		return true;
+	} 
+	time += 1 * DeltaTime;
+	return false;
 }
 
 void AStealthGameCharacter::MoveRight(float Value)

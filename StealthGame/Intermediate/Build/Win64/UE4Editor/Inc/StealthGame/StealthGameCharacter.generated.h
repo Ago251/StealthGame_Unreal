@@ -14,22 +14,22 @@ struct FVector;
 #endif
 #define STEALTHGAME_StealthGameCharacter_generated_h
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_SPARSE_DATA
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_RPC_WRAPPERS \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_SPARSE_DATA
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execCanJumpCharacter); \
 	DECLARE_FUNCTION(execHandleProgressCameraOffset); \
 	DECLARE_FUNCTION(execHandleProgressArmLength);
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execCanJumpCharacter); \
 	DECLARE_FUNCTION(execHandleProgressCameraOffset); \
 	DECLARE_FUNCTION(execHandleProgressArmLength);
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStealthGameCharacter(); \
 	friend struct Z_Construct_UClass_AStealthGameCharacter_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(AStealthGameCharacter)
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_INCLASS \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAStealthGameCharacter(); \
 	friend struct Z_Construct_UClass_AStealthGameCharacter_Statics; \
@@ -47,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(AStealthGameCharacter)
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStealthGameCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStealthGameCharacter) \
@@ -60,7 +60,7 @@ private: \
 public:
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AStealthGameCharacter(AStealthGameCharacter&&); \
@@ -71,32 +71,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStealthGameCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AStealthGameCharacter)
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AStealthGameCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AStealthGameCharacter, FollowCamera); }
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_11_PROLOG
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_GENERATED_BODY_LEGACY \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_12_PROLOG
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_SPARSE_DATA \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_RPC_WRAPPERS \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_INCLASS \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_STANDARD_CONSTRUCTORS \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_SPARSE_DATA \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_RPC_WRAPPERS \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_INCLASS \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StealthGame_Source_StealthGame_StealthGameCharacter_h_14_GENERATED_BODY \
+#define StealthGame_Source_StealthGame_StealthGameCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_SPARSE_DATA \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	StealthGame_Source_StealthGame_StealthGameCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_SPARSE_DATA \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	StealthGame_Source_StealthGame_StealthGameCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

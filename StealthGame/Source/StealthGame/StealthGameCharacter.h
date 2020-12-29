@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Components/TimelineComponent.h"
+#include "Cover.h"
 #include "StealthGameCharacter.generated.h"
 
 DECLARE_MULTICAST_DELEGATE(FGameStateCharacter)
@@ -54,6 +55,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	FVector WeaponOffset;
+
+	FVector startLocation;
+
+	FVector coverDestination;
+	bool moveToCover;
+	float time;
 	
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
@@ -97,6 +104,8 @@ protected:
 	UFUNCTION()
 	void HandleProgressCameraOffset(FVector Offset);
 
+	bool MoveTo(FVector destination, float DeltaTime);
+
 	void AimIn();
 	void AimOut();
 public:
@@ -112,7 +121,7 @@ public:
 	void CrouchCharacter();
 	void JumpCharacter();
 	void ReleaseJumpCharacter();
-	bool HitCover();
+	ACover* HitCover(UPARAM(ref) FHitResult Hit);
 	void Cover();
 };
 

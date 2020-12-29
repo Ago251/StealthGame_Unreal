@@ -30,4 +30,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	FName GetNearbySocket(FVector target);
+	FVector GetNearbySocketPosition(FVector target);
 };
