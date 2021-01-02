@@ -60,6 +60,7 @@ public:
 
 	FVector coverDestination;
 	bool moveToCover;
+	bool isInCover;
 	float time;
 	
 	virtual void BeginPlay() override;

@@ -118,7 +118,9 @@ void AStealthGameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	if(!isInCover){
+		PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	}
 	PlayerInputComponent->BindAxis("TurnRate", this, &AStealthGameCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AStealthGameCharacter::LookUpAtRate);
@@ -257,8 +259,12 @@ void AStealthGameCharacter::Cover(){
 	FHitResult Hit;
 	ACover* cover = HitCover(Hit);
 	if(cover != NULL){
+		isInCover = true;
+		CrouchCharacter();
 		startLocation = GetActorLocation();
 		coverDestination = cover->GetNearbySocketPosition(GetActorLocation());
+		FName name = cover->GetNearbySocket(GetActorLocation());
+		SetActorRotation(cover->GetSocketRotation(name));
 		moveToCover = true;
 	}
 }

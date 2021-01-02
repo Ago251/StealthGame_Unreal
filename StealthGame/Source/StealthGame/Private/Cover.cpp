@@ -19,7 +19,6 @@ ACover::ACover()
 void ACover::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -30,22 +29,6 @@ void ACover::Tick(float DeltaTime)
 }
 
 FName ACover::GetNearbySocket(FVector target) {
-	const FName AvailableSockets[12] =
-	{
-		FName("ForwardSocket_1"),
-		FName("ForwardSocket_2"),
-		//FName("ForwardSocket_3"),
-		FName("BackwardSocket_1"),
-		FName("BackwardSocket_2"),
-		//FName("BackwardSocket_3"),
-		FName("RightSocket_1"),
-		FName("RightSocket_2"),
-		//FName("RightSocket_3"),
-		FName("LeftSocket_1"),
-		FName("LeftSocket_2"),
-		//FName("LeftSocket_3")
-	};
-
 	FName NearestSocket = AvailableSockets[0]; // Get the first one if something goes wrong
 	
 	float MinDistance = INFINITY;
@@ -63,22 +46,6 @@ FName ACover::GetNearbySocket(FVector target) {
 }
 
 FVector ACover::GetNearbySocketPosition(FVector target) {
-	const FName AvailableSockets[12] =
-	{
-		FName("ForwardSocket_1"),
-		FName("ForwardSocket_2"),
-		//FName("ForwardSocket_3"),
-		FName("BackwardSocket_1"),
-		FName("BackwardSocket_2"),
-		//FName("BackwardSocket_3"),
-		FName("RightSocket_1"),
-		FName("RightSocket_2"),
-		//FName("RightSocket_3"),
-		FName("LeftSocket_1"),
-		FName("LeftSocket_2"),
-		//FName("LeftSocket_3")
-	};
-
 	FVector NearestSocket = SM->GetSocketLocation(AvailableSockets[0]); // Get the first one if something goes wrong
 	
 	float MinDistance = INFINITY;
@@ -93,5 +60,13 @@ FVector ACover::GetNearbySocketPosition(FVector target) {
 	}
 
 	return NearestSocket;
+}
+
+FRotator ACover::GetSocketRotation(FName socket){
+	return SM->GetSocketRotation(socket);
+}
+
+FVector ACover::GetSocketLocation(FName socket){
+	return SM->GetSocketLocation(socket);
 }
 

@@ -32,4 +32,21 @@ public:
 
 	FName GetNearbySocket(FVector target);
 	FVector GetNearbySocketPosition(FVector target);
+	FRotator GetSocketRotation(FName socket);
+	FVector GetSocketLocation(FName socket);
+	FName AvailableSockets[12] =
+	{
+		FName("ForwardSocket_1"),
+		FName("ForwardSocket_2"),
+		//FName("ForwardSocket_3"),
+		FName("BackwardSocket_1"),
+		FName("BackwardSocket_2"),
+		//FName("BackwardSocket_3"),
+		FName("RightSocket_1"),
+		FName("RightSocket_2"),
+		//FName("RightSocket_3"),
+		FName("LeftSocket_1"),
+		FName("LeftSocket_2"),
+		//FName("LeftSocket_3")
+	};
 };
