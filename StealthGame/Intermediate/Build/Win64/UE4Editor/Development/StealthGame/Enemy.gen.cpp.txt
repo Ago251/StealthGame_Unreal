@@ -1,0 +1,11 @@
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\Definitions.StealthGame.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame/Public/Enemy.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame\Public\Path.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\Path.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\Enemy.generated.h

@@ -44,3 +44,27 @@ void APath::OnConstruction(const FTransform & Transform) {
 		}
 	}
 }
+
+int APath::GetNextPoint(int index){
+	index++;
+	if(index >= Points.Num()){
+		index = 0;
+	}
+	return index;
+}
+
+FVector APath::GetPoint(int index){
+	FTransform transform = GetTransform();
+	if(index >= 0 && index < Points.Num()){
+		return transform.TransformPosition(Points[index].position);
+	}
+	return FVector(0, 0, 0);
+}
+
+float APath::GetWaitTime(int index){
+	if(index >= 0 && index < Points.Num()){
+		return Points[index].time;
+	}
+	return 0;
+}
+

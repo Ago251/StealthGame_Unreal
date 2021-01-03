@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef STEALTHGAME_Path_generated_h
 #error "Path.generated.h already included, missing '#pragma once' in Path.h"
 #endif
@@ -21,8 +22,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> STEALTHGAME_API UScriptStruct* StaticStruct<struct FPatrolPoint>();
 
 #define StealthGame_Source_StealthGame_Public_Path_h_23_SPARSE_DATA
-#define StealthGame_Source_StealthGame_Public_Path_h_23_RPC_WRAPPERS
-#define StealthGame_Source_StealthGame_Public_Path_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define StealthGame_Source_StealthGame_Public_Path_h_23_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetWaitTime); \
+	DECLARE_FUNCTION(execGetPoint); \
+	DECLARE_FUNCTION(execGetNextPoint);
+
+
+#define StealthGame_Source_StealthGame_Public_Path_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetWaitTime); \
+	DECLARE_FUNCTION(execGetPoint); \
+	DECLARE_FUNCTION(execGetNextPoint);
+
+
 #define StealthGame_Source_StealthGame_Public_Path_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPath(); \

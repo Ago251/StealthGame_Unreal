@@ -38,5 +38,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	UFUNCTION(BlueprintCallable, Category="PatrolPath")
+	int GetNextPoint(int index);
+	UFUNCTION(BlueprintCallable, Category="PatrolPath")
+	FVector GetPoint(int index);
+	UFUNCTION(BlueprintCallable, Category="PatrolPath")
+	float GetWaitTime(int index);
 };
