@@ -44,4 +44,6 @@ public:
 	FVector GetPoint(int index);
 	UFUNCTION(BlueprintCallable, Category="PatrolPath")
 	float GetWaitTime(int index);
+	UFUNCTION(BlueprintCallable, Category="PatrolPath")
+	FVector GetDirectionPoint(int index);
 };

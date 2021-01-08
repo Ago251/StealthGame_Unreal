@@ -68,3 +68,11 @@ float APath::GetWaitTime(int index){
 	return 0;
 }
 
+FVector APath::GetDirectionPoint(int index){
+	FTransform transform = GetTransform();
+	if(index >= 0 && index < Points.Num()){
+		return transform.TransformPosition(Points[index].position + (Points[index].ViewDirection * length));
+	}
+	return FVector(0, 0, 0);
+}
+

@@ -24,6 +24,7 @@ template<> STEALTHGAME_API UScriptStruct* StaticStruct<struct FPatrolPoint>();
 #define StealthGame_Source_StealthGame_Public_Path_h_23_SPARSE_DATA
 #define StealthGame_Source_StealthGame_Public_Path_h_23_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetDirectionPoint); \
 	DECLARE_FUNCTION(execGetWaitTime); \
 	DECLARE_FUNCTION(execGetPoint); \
 	DECLARE_FUNCTION(execGetNextPoint);
@@ -31,6 +32,7 @@ template<> STEALTHGAME_API UScriptStruct* StaticStruct<struct FPatrolPoint>();
 
 #define StealthGame_Source_StealthGame_Public_Path_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetDirectionPoint); \
 	DECLARE_FUNCTION(execGetWaitTime); \
 	DECLARE_FUNCTION(execGetPoint); \
 	DECLARE_FUNCTION(execGetNextPoint);
