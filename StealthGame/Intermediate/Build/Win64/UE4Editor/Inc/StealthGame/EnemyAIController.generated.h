@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef STEALTHGAME_EnemyAIController_generated_h
 #error "EnemyAIController.generated.h already included, missing '#pragma once' in EnemyAIController.h"
 #endif
 #define STEALTHGAME_EnemyAIController_generated_h
 
 #define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_SPARSE_DATA
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnPerceptionUpdate_SenseManagement);
+
+
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnPerceptionUpdate_SenseManagement);
+
+
 #define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \

@@ -23,6 +23,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI: behaviour tree")
 	UBehaviorTree* BehaviourTree;
 	
+	UFUNCTION()
+	void OnPerceptionUpdate_SenseManagement(const TArray<AActor*>& UpdateActors);
 protected:
 	virtual void BeginPlay() override;
 

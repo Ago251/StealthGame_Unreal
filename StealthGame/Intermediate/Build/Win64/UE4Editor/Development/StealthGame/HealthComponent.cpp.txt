@@ -1,0 +1,3 @@
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\Definitions.StealthGame.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame\Public\HealthComponent.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\HealthComponent.generated.h

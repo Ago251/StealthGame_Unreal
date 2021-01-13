@@ -12,6 +12,8 @@
 #include "DrawDebugHelpers.h"
 #include "Math/UnrealMathUtility.h"
 #include "Cover.h"
+#include "Enemy.h"
+#include "HealthComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -213,6 +215,14 @@ void AStealthGameCharacter::FireCharacter(){
 	FCollisionQueryParams collisionParams;
 	collisionParams.AddIgnoredActor(this->GetOwner());
 	DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 1, 0, 1);
+
+	bool bHit = GetWorld()->LineTraceSingleByChannel(outHit, start, end, ECC_Pawn, collisionParams);
+	if(bHit){
+		AEnemy* hitEnemy = Cast<AEnemy>(outHit.Actor.Get());
+		if (hitEnemy){
+			hitEnemy->GetHealthComponent()->GetDamage(1);
+		}
+	}
 }
 
 void AStealthGameCharacter::MoveForward(float Value)

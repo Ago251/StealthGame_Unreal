@@ -72,13 +72,33 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTCompositeNode.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTree.generated.h
 C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\EnemyAIController.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionComponent.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionSystem.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AISubsystem.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame\Private\../StealthGameCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/TimelineComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TimelineComponent.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Source\StealthGame\Public\Cover.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\Cover.generated.h
+C:\Users\ago25\Desktop\TheSign\Curriculari\UnrealEngine\GitStealthGame\StealthGame_Unreal\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\StealthGame\StealthGameCharacter.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Blackboard/BlackboardKeyType.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardKeyType.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AISystem.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/AISystemBase.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AISystemBase.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISystem.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardData.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardData.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionSystem.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AISubsystem.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionSystem.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionComponent.generated.h
