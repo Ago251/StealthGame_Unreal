@@ -30,6 +30,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
+	void DetermineMovementDirection(FVector Position, FVector& MovementDirection, FRotator& FacingDirection);
+	void GetLimits(FVector Position, FVector& limitA, FVector& limitB, bool& axisX);
 	FName GetNearbySocket(FVector target);
 	FVector GetNearbySocketPosition(FVector target);
 	FRotator GetSocketRotation(FName socket);

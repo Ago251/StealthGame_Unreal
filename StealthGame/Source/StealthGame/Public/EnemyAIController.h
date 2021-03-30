@@ -7,6 +7,7 @@
 #include "Perception/AISenseConfig_Sight.h"
 #include "Perception/AISenseConfig_Hearing.h"
 #include "BehaviorTree/BehaviorTree.h"
+#include "Enemy.h"
 #include "EnemyAIController.generated.h"
 
 /**
@@ -22,6 +23,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI: behaviour tree")
 	UBehaviorTree* BehaviourTree;
+
+	AEnemy* pawnControlled;
 	
 	UFUNCTION()
 	void OnPerceptionUpdate_SenseManagement(const TArray<AActor*>& UpdateActors);
@@ -31,4 +34,5 @@ protected:
 private:
 	UAISenseConfig_Sight* SightConfig;
 	UAISenseConfig_Hearing* HearingConfig;
+	void StopAI();
 };

@@ -8,7 +8,7 @@
 #include "HealthComponent.h"
 #include "Enemy.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable, ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class STEALTHGAME_API AEnemy : public ACharacter
 {
 	GENERATED_BODY()
@@ -20,7 +20,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Path")
 	APath* PathToPatrol;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Health", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	UHealthComponent* HealthComponent;
 
 protected:

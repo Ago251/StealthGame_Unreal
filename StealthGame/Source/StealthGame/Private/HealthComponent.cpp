@@ -33,7 +33,9 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 }
 
 void UHealthComponent::GetDamage(float Amount) {
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Blue, FString::Printf(TEXT("Damage: %f"), Amount));
 	Health = FMath::Clamp(Health - Amount, 0.0f, HealthMaxValue);
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Blue, FString::Printf(TEXT("Health: %f"), Health));
 	if (Health <= 0) {
 		isDead = true;
 	}

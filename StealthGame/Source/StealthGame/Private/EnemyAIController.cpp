@@ -35,6 +35,8 @@ void AEnemyAIController::BeginPlay() {
 	Super::BeginPlay();
 	RunBehaviorTree(BehaviourTree);
 	PerceptionComponent->OnPerceptionUpdated.AddDynamic(this, &AEnemyAIController::OnPerceptionUpdate_SenseManagement);
+	pawnControlled = Cast<AEnemy>(GetPawn());
+	pawnControlled->HealthComponent->OnHealtToZero.AddDynamic(this, &AEnemyAIController::StopAI);
 }
 
 void AEnemyAIController::OnPerceptionUpdate_SenseManagement(const TArray<AActor*>& UpdateActors) {
@@ -64,4 +66,8 @@ void AEnemyAIController::OnPerceptionUpdate_SenseManagement(const TArray<AActor*
 		}
 	}
 	GetBlackboardComponent()->SetValueAsBool("SawPlayer", false);
+}
+
+void AEnemyAIController::StopAI(){
+	BrainComponent->StopLogic("Dead");
 }

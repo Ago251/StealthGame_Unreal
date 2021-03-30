@@ -62,6 +62,9 @@ public:
 	bool moveToCover;
 	bool isInCover;
 	float time;
+	ACover *cover;
+	FVector limitA, limitB;
+	bool axisX;
 	
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;

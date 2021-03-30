@@ -213,14 +213,23 @@ void AStealthGameCharacter::FireCharacter(){
 	FVector end = start + (WeaponMesh->GetRightVector() * WeaponRange);
 
 	FCollisionQueryParams collisionParams;
-	collisionParams.AddIgnoredActor(this->GetOwner());
+	collisionParams.AddIgnoredActor(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 	DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 1, 0, 1);
 
-	bool bHit = GetWorld()->LineTraceSingleByChannel(outHit, start, end, ECC_Pawn, collisionParams);
+	bool bHit = GetWorld()->LineTraceSingleByChannel(outHit, start , end, ECC_Pawn, collisionParams);
 	if(bHit){
+		FString name = outHit.GetActor()->GetName();
+		// GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, FString::Printf(TEXT("Name: %s"), name));
+		//GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Green, name);
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, TEXT("Number %s"), name);
+		//UE_LOG(YourLog, Warning,TEXT("MyCharacter's Location is %s"), name);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, name);
 		AEnemy* hitEnemy = Cast<AEnemy>(outHit.Actor.Get());
 		if (hitEnemy){
+			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Hit PLAYER"));
 			hitEnemy->GetHealthComponent()->GetDamage(1);
+		}else{
+			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("No hit player"));
 		}
 	}
 }
@@ -229,6 +238,11 @@ void AStealthGameCharacter::MoveForward(float Value)
 {
 	if ((Controller != NULL) && (Value != 0.0f))
 	{
+		if(isInCover == true){
+			isInCover = false;
+			StandUpCharacter();
+		}
+
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
@@ -267,10 +281,12 @@ ACover* AStealthGameCharacter::HitCover(UPARAM(ref) FHitResult Hit){
 
 void AStealthGameCharacter::Cover(){
 	FHitResult Hit;
-	ACover* cover = HitCover(Hit);
+	
+	cover = HitCover(Hit);
 	if(cover != NULL){
 		isInCover = true;
 		CrouchCharacter();
+		cover->GetLimits(GetActorLocation(), limitA, limitB, axisX);
 		startLocation = GetActorLocation();
 		coverDestination = cover->GetNearbySocketPosition(GetActorLocation());
 		FName name = cover->GetNearbySocket(GetActorLocation());
@@ -292,15 +308,52 @@ bool AStealthGameCharacter::MoveTo(FVector destination, float DeltaTime){
 
 void AStealthGameCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ((Controller != NULL) && (Value != 0.0f) )
 	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		if(!isInCover){
+			// find out which way is right
+			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
 	
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		AddMovementInput(Direction, Value);
+			// get right vector 
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+			// add movement in that direction
+			AddMovementInput(Direction, Value);
+		}else{
+			FRotator Rotation = Controller->GetControlRotation();
+			FRotator YawRotation(0, Rotation.Yaw, 0);
+
+			FVector Direction;
+
+			cover->DetermineMovementDirection(GetActorLocation(), Direction, Rotation);
+			FVector nextPosition = GetActorLocation();
+			nextPosition = nextPosition + Direction * Value;
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("LimitA: %s"), *limitA.ToString()));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("LimitB: %s"), *limitB.ToString()));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("NextPosition: %s"), *nextPosition.ToString()));
+			if(axisX){
+				if(nextPosition.X >= limitA.X && nextPosition.X <= limitB.X ){
+					SetActorRotation(Rotation);
+					AddMovementInput(Direction, Value);
+				}else if(nextPosition.X <= limitA.X){
+					nextPosition = FVector(limitA.X, nextPosition.Y, nextPosition.Z);
+					SetActorLocation(nextPosition);
+				}else{
+					nextPosition = FVector(limitB.X, nextPosition.Y, nextPosition.Z);
+					SetActorLocation(nextPosition);
+				}	
+			}else{
+				if(nextPosition.Y >= limitA.Y && nextPosition.Y <= limitB.Y){
+					SetActorRotation(Rotation);
+					AddMovementInput(Direction, Value);
+				}else if(nextPosition.Y <= limitA.Y){
+					nextPosition = FVector(nextPosition.X, limitA.Y, nextPosition.Z);
+					SetActorLocation(nextPosition);
+				}else{
+					nextPosition = FVector(nextPosition.X, limitB.Y, nextPosition.Z);
+					SetActorLocation(nextPosition);
+				}	
+			}
+		}
 	}
 }
