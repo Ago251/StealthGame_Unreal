@@ -125,7 +125,7 @@ public:
 	void CrouchCharacter();
 	void JumpCharacter();
 	void ReleaseJumpCharacter();
-	ACover* HitCover(UPARAM(ref) FHitResult Hit);
+	ACover* HitCover(UPARAM(ref) FHitResult& Hit);
 	void Cover();
 };
 

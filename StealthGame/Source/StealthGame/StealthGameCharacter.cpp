@@ -253,7 +253,7 @@ void AStealthGameCharacter::MoveForward(float Value)
 	}
 }
 
-ACover* AStealthGameCharacter::HitCover(UPARAM(ref) FHitResult Hit){
+ACover* AStealthGameCharacter::HitCover(UPARAM(ref) FHitResult& Hit){
 	FCollisionQueryParams Params;
 	Params.AddIgnoredActor(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 
@@ -264,7 +264,7 @@ ACover* AStealthGameCharacter::HitCover(UPARAM(ref) FHitResult Hit){
 	FVector end = start + (forwardVector * 5000.f);
 
 	bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, start, end, ECC_Pawn, Params);
-
+	GEngine->AddOnScreenDebugMessage(-30, 5.f, FColor::White, FString::Printf(TEXT("NextPosition: %s"), *Hit.ImpactPoint.ToString()));
 	if(bHit){
 		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 1, 0, 1);
 		ACover* hitCover = Cast<ACover>(Hit.Actor.Get());
@@ -289,6 +289,18 @@ void AStealthGameCharacter::Cover(){
 		cover->GetLimits(GetActorLocation(), limitA, limitB, axisX);
 		startLocation = GetActorLocation();
 		coverDestination = cover->GetNearbySocketPosition(GetActorLocation());
+		GEngine->AddOnScreenDebugMessage(-8, 5.f, FColor::Red, FString::Printf(TEXT("NextPosition: %s"), *Hit.ImpactPoint.ToString()));
+		GEngine->AddOnScreenDebugMessage(-5, 5.f, FColor::Red, FString::Printf(TEXT("LimitA: %s"), *limitA.ToString()));
+		GEngine->AddOnScreenDebugMessage(-2, 5.f, FColor::Red, FString::Printf(TEXT("LimitB: %s"), *limitB.ToString()));
+		if(axisX){
+				if(Hit.ImpactPoint.X >= limitA.X && Hit.ImpactPoint.X <= limitB.X ){
+					coverDestination = FVector(Hit.ImpactPoint.X, limitB.Y, limitB.Z);
+				}
+		}else{
+				if(Hit.ImpactPoint.Y >= limitA.Y && Hit.ImpactPoint.Y <= limitB.Y){
+					coverDestination = FVector(limitB.X, Hit.ImpactPoint.Y, limitB.Z);
+				}
+		}
 		FName name = cover->GetNearbySocket(GetActorLocation());
 		SetActorRotation(cover->GetSocketRotation(name));
 		moveToCover = true;
