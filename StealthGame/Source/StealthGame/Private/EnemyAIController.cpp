@@ -3,6 +3,7 @@
 
 #include "EnemyAIController.h"
 #include "../StealthGameCharacter.h"
+#include "ProceduralMeshComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
 #include "Perception/AIPerceptionComponent.h"
