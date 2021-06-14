@@ -77,6 +77,7 @@ void AStealthGameCharacter::Tick(float DeltaTime) {
 	AimTimeline.TickTimeline(DeltaTime);
 	if(moveToCover){
 		if(MoveTo(coverDestination, DeltaTime)){
+			time = 0;
 			moveToCover = false;
 		}
 	}
@@ -181,7 +182,9 @@ void AStealthGameCharacter::CrouchCharacter(){
 }
 
 void AStealthGameCharacter::StandUpCharacter(){
-	crouchButtonDown = false;
+	if(!moveToCover){
+		crouchButtonDown = false;
+	}
 }
 
 bool AStealthGameCharacter::CanJumpCharacter(bool jumpButton, bool crouchButton){
@@ -236,7 +239,7 @@ void AStealthGameCharacter::FireCharacter(){
 
 void AStealthGameCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && !moveToCover)
 	{
 		if(isInCover == true){
 			isInCover = false;
@@ -320,7 +323,7 @@ bool AStealthGameCharacter::MoveTo(FVector destination, float DeltaTime){
 
 void AStealthGameCharacter::MoveRight(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f) )
+	if ((Controller != NULL) && (Value != 0.0f) && !moveToCover)
 	{
 		if(!isInCover){
 			// find out which way is right
