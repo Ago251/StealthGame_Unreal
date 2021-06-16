@@ -15,6 +15,8 @@ class STEALTHGAME_API UHealthComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UHealthComponent();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health system")
+	bool isDead;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -24,8 +26,6 @@ protected:
 	float HealthMaxValue;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health system")
 	float Health;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health system")
-	bool isDead;
 public:	
 	UPROPERTY(BlueprintAssignable)
 	FHealtDelegate OnHealtToZero;

@@ -25,7 +25,9 @@ void AEnemy::BeginPlay()
 void AEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	CreateCone(GetActorLocation() + offestViewCone, GetActorForwardVector(), 20, (halfAngleDegreeForViewCone * 2) / 20, radiusForViewCone);
+	if(HealthComponent->isDead == false){
+		CreateCone(GetActorLocation() + offestViewCone, GetActorForwardVector(), 20, (halfAngleDegreeForViewCone * 2) / 20, radiusForViewCone);
+	}
 }
 
 // Called to bind functionality to input
@@ -64,12 +66,12 @@ void AEnemy::CreateCone(FVector Origin, FVector Forward, int TotalTrace, float D
 			vertices[i] = FVector(outHit.ImpactPoint.X - Origin.X, outHit.ImpactPoint.Y - Origin.Y, relativeLoc.Z);
 			UV[i] = FVector2D(1, 1);
 			//DrawDebugLine(GetWorld(), Origin, destination, FColor::Red, false, 1, 0, 1);
-			//DrawDebugLine(GetWorld(), Origin, outHit.ImpactPoint, FColor::Red, false, 1, 0, 1);
+			DrawDebugLine(GetWorld(), Origin, outHit.ImpactPoint, FColor::Red, false, 1, 0, 1);
 		}else{
 			//GEngine->AddOnScreenDebugMessage(-2, 5.f, FColor::Red, FString::Printf(TEXT("Point: %s"), *destination.ToString()));
 			vertices[i] = FVector(destination.X - Origin.X, destination.Y - Origin.Y, relativeLoc.Z);
 			UV[i] = FVector2D(1, 1);
-			//DrawDebugLine(GetWorld(), Origin, destination, FColor::Red, false, 1, 0, 1);
+			DrawDebugLine(GetWorld(), Origin, destination, FColor::Red, false, 1, 0, 1);
 		}
 	}
 
