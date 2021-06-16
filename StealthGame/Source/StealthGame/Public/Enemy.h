@@ -31,6 +31,9 @@ public:
 	UMaterial* ViewConeMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = AI, meta = (AllowPrivateAccess = "true"))
+	UMaterialInstanceDynamic*  ViewConeMaterialPersonal;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = AI, meta = (AllowPrivateAccess = "true"))
 	FVector offestViewCone;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AI, meta = (AllowPrivateAccess = "true"))

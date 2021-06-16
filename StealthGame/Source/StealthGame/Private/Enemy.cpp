@@ -103,7 +103,10 @@ void AEnemy::CreateCone(FVector Origin, FVector Forward, int TotalTrace, float D
 	//normals.Init(FVector(0, 0, 0), TotalTrace * 3);
 
 	ViewCone->CreateMeshSection_LinearColor(0, vertices, triangles,  TArray<FVector>(), UV, VertexColors, TArray<FProcMeshTangent>(),true);
-	ViewCone->SetMaterial(0, ViewConeMaterial);
+	if(!ViewConeMaterialPersonal){
+		ViewConeMaterialPersonal = UMaterialInstanceDynamic::Create(ViewConeMaterial, this);
+	}
+	ViewCone->SetMaterial(0, ViewConeMaterialPersonal);
 	ViewCone->SetWorldRotation(FRotator(0, 0, 0));
 }
 

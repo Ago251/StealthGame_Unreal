@@ -59,7 +59,9 @@ public:
 	FVector startLocation;
 
 	FVector coverDestination;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Movement)
 	bool moveToCover;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Movement)
 	bool isInCover;
 	float time;
 	ACover *cover;

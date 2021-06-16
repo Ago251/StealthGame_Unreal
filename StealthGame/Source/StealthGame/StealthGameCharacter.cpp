@@ -101,10 +101,10 @@ void AStealthGameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
 
-	if(!crouchButtonDown){
-		PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AStealthGameCharacter::JumpCharacter);
-		PlayerInputComponent->BindAction("Jump", IE_Released, this, &AStealthGameCharacter::ReleaseJumpCharacter);
-	}
+	// if(!crouchButtonDown){
+	// 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AStealthGameCharacter::JumpCharacter);
+	// 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AStealthGameCharacter::ReleaseJumpCharacter);
+	// }
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AStealthGameCharacter::FireCharacter);
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AStealthGameCharacter::AimIn);
