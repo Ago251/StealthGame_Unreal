@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4240d4f6-a642-4392-ad4e-7316a4cb6e50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-StealthGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-StealthGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/ActionHistory.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/HotReload.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/StealthGameEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/StealthGameEditor/Development/StealthGameEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Cover.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Cover.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Cover.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Cover.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Enemy.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Enemy.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Enemy.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Enemy.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/EnemyAIController.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/HealthComponent.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/HealthComponent.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/HealthComponent.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/HealthComponent.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Path.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Path.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Path.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/Path.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.init.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.init.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.init.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGame.init.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.cpp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameCharacter.gen.cpp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/StealthGameGameMode.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame-1503.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame-1503.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame-1503.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame-1503.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.dll.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/StealthGame/UE4Editor-StealthGame.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/Enemy.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/Enemy.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/EnemyAIController.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/EnemyAIController.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/StealthGame.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/StealthGame.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/StealthGameCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/StealthGameCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/StealthGameCharacter.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/StealthGameCharacter.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/StealthGame/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/AnimStarterPack/Enemy_AnimBlueprint_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/AnimStarterPack/Enemy_AnimBlueprint_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/BTTask_BlueprintBase_New_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/BTTask_BlueprintBase_New_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardAIController_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardAIController_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardBehaviourTree_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardBehaviourTree_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardBehaviourTree_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardBehaviourTree_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardBlackboardData_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/GuardBlackboardData_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Player_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/BTTask_GetNextPatrolPoint_2021-01-03-18-52-01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/BTTask_GetPointPosition_2021-01-03-18-49-44.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/BTTask_GetPointPosition_2021-01-03-18-59-19.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/BTTask_LookAt_2021-01-08-11-36-12.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-03-18-11-05.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-03-18-21-37.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-04-15-26-27.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-08-12-46.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-08-24-11.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-09-03-23.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-09-17-58.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-10-23-34.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-10-35-26.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Enemy_AnimBlueprint_2021-01-08-10-44-39.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardAIController_2021-01-02-20-25-44.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardAIController_2021-01-03-18-35-41.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-02-20-50-36.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-02-21-01-04.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-02-21-09-37.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-17-38-41.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-17-55-11.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-18-01-11.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-18-11-05.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-18-30-11.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-18-52-01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-03-18-59-19.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-08-10-59-16.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-08-11-26-22.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-08-11-36-12.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBehaviourTree_2021-01-08-12-24-48.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBlackboardData_2021-01-02-20-50-36.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBlackboardData_2021-01-02-21-01-04.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBlackboardData_2021-01-02-21-09-02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/GuardBlackboardData_2021-01-03-18-52-01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-03-18-21-37.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-08-19-19.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-09-17-58.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-10-03-33.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-10-20-22.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-10-35-26.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-10-43-27.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-10-48-27.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/Guard_2021-01-08-11-26-24.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-02-20-15-43.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-03-18-21-37.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-03-18-35-41.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-03-18-52-01.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-08-12-46.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-08-24-11.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-09-17-58.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-09-49-55.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-10-03-33.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-10-22-19.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-10-35-26.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-10-48-27.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-10-59-16.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-11-26-24.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_2021-01-08-13-13-07.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_BuiltData_2021-01-03-18-21-37.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_BuiltData_2021-01-03-18-52-01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Backup/ThirdPersonExampleMap_BuiltData_2021-01-08-11-26-24.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-CEFD4500493BAED0825545AEDFDAB832/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/289116005.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/289116005.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/StealthGame-backup-2021.01.13-13.40.52.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/StealthGame-backup-2021.01.13-14.54.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/StealthGame-backup-2021.01.13-15.05.48.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/StealthGame-backup-2021.01.13-15.08.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/StealthGame.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/StealthGame.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/StealthGame_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/StealthGame_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/StealthGame/StealthGameCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/StealthGame/StealthGameCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/StealthGame/StealthGameCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/StealthGame/StealthGameCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StealthGame.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/StealthGame.code-workspace" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qnUnaLrifK0Uh8iZagIJSBtrZY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4240d4f6-a642-4392-ad4e-7316a4cb6e50" name="Default Changelist" comment="" />
+      <created>1617715017760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617715017760</updated>
+      <workItem from="1617715024926" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

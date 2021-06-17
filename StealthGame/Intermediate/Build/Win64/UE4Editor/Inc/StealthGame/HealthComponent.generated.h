@@ -68,8 +68,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHealthComponent); \
 #define StealthGame_Source_StealthGame_Public_HealthComponent_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HealthDefaultValue() { return STRUCT_OFFSET(UHealthComponent, HealthDefaultValue); } \
 	FORCEINLINE static uint32 __PPO__HealthMaxValue() { return STRUCT_OFFSET(UHealthComponent, HealthMaxValue); } \
-	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(UHealthComponent, Health); } \
-	FORCEINLINE static uint32 __PPO__isDead() { return STRUCT_OFFSET(UHealthComponent, isDead); }
+	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(UHealthComponent, Health); }
 
 
 #define StealthGame_Source_StealthGame_Public_HealthComponent_h_10_PROLOG

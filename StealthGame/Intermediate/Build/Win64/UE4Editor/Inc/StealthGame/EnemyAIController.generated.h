@@ -14,18 +14,18 @@ class AActor;
 #endif
 #define STEALTHGAME_EnemyAIController_generated_h
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_SPARSE_DATA
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_SPARSE_DATA
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnPerceptionUpdate_SenseManagement);
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnPerceptionUpdate_SenseManagement);
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_INCLASS_NO_PURE_DECLS \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
 	friend struct Z_Construct_UClass_AEnemyAIController_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyAIController)
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_INCLASS \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
 	friend struct Z_Construct_UClass_AEnemyAIController_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyAIController)
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_STANDARD_CONSTRUCTORS \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyAIController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyAIController) \
@@ -56,7 +56,7 @@ private: \
 public:
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_ENHANCED_CONSTRUCTORS \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemyAIController(AEnemyAIController&&); \
@@ -67,28 +67,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAIController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyAIController)
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_PRIVATE_PROPERTY_OFFSET
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_15_PROLOG
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_GENERATED_BODY_LEGACY \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_PRIVATE_PROPERTY_OFFSET
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_16_PROLOG
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_SPARSE_DATA \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_INCLASS \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_STANDARD_CONSTRUCTORS \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_SPARSE_DATA \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_RPC_WRAPPERS \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_INCLASS \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_GENERATED_BODY \
+#define StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_SPARSE_DATA \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_INCLASS_NO_PURE_DECLS \
-	StealthGame_Source_StealthGame_Public_EnemyAIController_h_18_ENHANCED_CONSTRUCTORS \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_SPARSE_DATA \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_INCLASS_NO_PURE_DECLS \
+	StealthGame_Source_StealthGame_Public_EnemyAIController_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

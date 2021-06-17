@@ -193,6 +193,16 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isInCover_MetaData[];
+#endif
+		static void NewProp_isInCover_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isInCover;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_moveToCover_MetaData[];
+#endif
+		static void NewProp_moveToCover_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_moveToCover;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponOffset_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_WeaponOffset;
@@ -258,6 +268,28 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		{ "ModuleRelativePath", "StealthGameCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover_SetBit(void* Obj)
+	{
+		((AStealthGameCharacter*)Obj)->isInCover = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover = { "isInCover", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AStealthGameCharacter), &Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover_SetBit, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "StealthGameCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover_SetBit(void* Obj)
+	{
+		((AStealthGameCharacter*)Obj)->moveToCover = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover = { "moveToCover", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AStealthGameCharacter), &Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover_SetBit, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_WeaponOffset_MetaData[] = {
 		{ "Category", "Weapon" },
@@ -357,6 +389,8 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStealthGameCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStealthGameCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_isInCover,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_moveToCover,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_WeaponOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_WeaponRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStealthGameCharacter_Statics::NewProp_WeaponMesh,
@@ -396,7 +430,7 @@ void EmptyLinkFunctionForGeneratedCodeStealthGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStealthGameCharacter, 1643822502);
+	IMPLEMENT_CLASS(AStealthGameCharacter, 2598808039);
 	template<> STEALTHGAME_API UClass* StaticClass<AStealthGameCharacter>()
 	{
 		return AStealthGameCharacter::StaticClass();
