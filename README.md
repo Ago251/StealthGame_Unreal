@@ -1,6 +1,6 @@
 # StealthGame_Unreal
 
-Introduction
+# Introduction
 An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list of what I faced during the development.
 
 - C++ with UE4: a focus on UE4 classes like Pawn, Actor, ActorComponent, Character, AIController, Procedural mesh.
@@ -9,7 +9,7 @@ An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list
 - Implementing Stealth mechanics: walk, move camera, aim on the shoulder, cover system, viewcone(procedural mesh), shaders for feedbacks(exclamation point and view cone)
 - Implementing AI with Behaviour tree.
 
-Input  
+# Input  
 Walk: WASD  
 Camera: mouse movement  
 Aim: mouse right click  
