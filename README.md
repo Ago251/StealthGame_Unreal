@@ -18,8 +18,13 @@ Cover: E key
 Pause menu: escape  
 
 # Classes  
-ATP_ThirdPersonCharacter: this class implements the playable character. Based on the ATP_ThirdPersonCharacter class of the UE4 content pack  
-AEnemy: this class handles the mechanics implementation of the enemies  
-AAIController: this class implements the sight and hearing senses of the enemies. It runs automatically the given behaviour tree. Behaviour trees are made with the Blueprint tools of UE4.  
-ACoverActor: this class implements the covers  
-UHealthComponent: this component implements the health system both ATP_ThirdPersonCharacter and AEnemy are using this to manage health  
+**ATP_ThirdPersonCharacter**: this class implements the playable character. Based on the ATP_ThirdPersonCharacter class of the UE4 content pack  
+
+**AEnemy**: this class handles the mechanics implementation of the enemies  
+
+**AAIController**: this class implements the sight and hearing senses of the enemies. It runs automatically the given behaviour tree. Behaviour trees are made with the Blueprint 
+tools of UE4.  
+
+**ACoverActor**: this class implements the covers  
+
+**UHealthComponent**: this component implements the health system both ATP_ThirdPersonCharacter and AEnemy are using this to manage health  
