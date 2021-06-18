@@ -13,7 +13,7 @@ An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list
 Walk: WASD  
 Camera: mouse movement  
 Aim: mouse right click  
-Shoot: mouse left click || right trigger RT  
+Shoot: mouse left click
 Cover: E key  
 Pause menu: escape  
 
