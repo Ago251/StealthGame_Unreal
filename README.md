@@ -17,7 +17,7 @@ Shoot: mouse left click || right trigger RT
 Cover: E key  
 Pause menu: escape  
 
-#Classes  
+# Classes  
 ATP_ThirdPersonCharacter: this class implements the playable character. Based on the ATP_ThirdPersonCharacter class of the UE4 content pack  
 
 AEnemy: this class handles the mechanics implementation of the enemies  
