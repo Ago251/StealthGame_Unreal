@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "Enemy.h"
 #include "HealthComponent.h"
 #include "ProceduralMeshComponent.h"
 #include "Engine.h"
-#include "Enemy.h"
 
 // Sets default values
 AEnemy::AEnemy()
@@ -66,12 +66,12 @@ void AEnemy::CreateCone(FVector Origin, FVector Forward, int TotalTrace, float D
 			vertices[i] = FVector(outHit.ImpactPoint.X - Origin.X, outHit.ImpactPoint.Y - Origin.Y, relativeLoc.Z);
 			UV[i] = FVector2D(1, 1);
 			//DrawDebugLine(GetWorld(), Origin, destination, FColor::Red, false, 1, 0, 1);
-			DrawDebugLine(GetWorld(), Origin, outHit.ImpactPoint, FColor::Red, false, 1, 0, 1);
+			//DrawDebugLine(GetWorld(), Origin, outHit.ImpactPoint, FColor::Red, false, 1, 0, 1);
 		}else{
 			//GEngine->AddOnScreenDebugMessage(-2, 5.f, FColor::Red, FString::Printf(TEXT("Point: %s"), *destination.ToString()));
 			vertices[i] = FVector(destination.X - Origin.X, destination.Y - Origin.Y, relativeLoc.Z);
 			UV[i] = FVector2D(1, 1);
-			DrawDebugLine(GetWorld(), Origin, destination, FColor::Red, false, 1, 0, 1);
+			//DrawDebugLine(GetWorld(), Origin, destination, FColor::Red, false, 1, 0, 1);
 		}
 	}
 

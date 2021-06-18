@@ -77,22 +77,22 @@ void ACover::DetermineMovementDirection(FVector Position, FVector& MovementDirec
 	FRotator FacingRot = GetActorRotation();
 
 	if (NearbySocket.IsEqual("ForwardSocket_1") || NearbySocket.IsEqual("ForwardSocket_2")) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket forward"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket forward"));
 		MovementDirection = GetActorForwardVector();
 		FacingDirection = FacingRot + FRotator(0, 180, 0);;
 	}
 	else if (NearbySocket.IsEqual("BackwardSocket_1") || NearbySocket.IsEqual("BackwardSocket_2")) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket backward"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket backward"));
 		MovementDirection = -GetActorForwardVector();
 		FacingDirection = FacingRot + FRotator(0, 0, 0);
 	}
 	else if (NearbySocket.IsEqual("RightSocket_1") || NearbySocket.IsEqual("RightSocket_2")) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket right"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket right"));
 		MovementDirection = -GetActorRightVector();
 		FacingDirection = FacingRot + FRotator(0, -90, 0);
 	}
 	else { //LeftSocket
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket left"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket left"));
 		MovementDirection = GetActorRightVector();
 		FacingDirection = FacingRot + FRotator(0, 90.f, 0);
 	}
@@ -102,25 +102,25 @@ void ACover::GetLimits(FVector Position, FVector& limitA, FVector& limitB, bool&
 	FName NearbySocket = GetNearbySocket(Position);
 
 	if (NearbySocket.IsEqual("ForwardSocket_1") || NearbySocket.IsEqual("ForwardSocket_2")) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket forward"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket forward"));
 		limitA = GetSocketLocation("ForwardSocket_2");
 		limitB = GetSocketLocation("ForwardSocket_1");
 		axisX = true;
 	}
 	else if (NearbySocket.IsEqual("BackwardSocket_1") || NearbySocket.IsEqual("BackwardSocket_2")) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket backward"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket backward"));
 		limitA = GetSocketLocation("BackwardSocket_1");
 		limitB = GetSocketLocation("BackwardSocket_2");
 		axisX = true;
 	}
 	else if (NearbySocket.IsEqual("RightSocket_1") || NearbySocket.IsEqual("RightSocket_2")) {
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket right"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket right"));
 		limitA = GetSocketLocation("RightSocket_1");
 		limitB = GetSocketLocation("RightSocket_2");
 		axisX = false;
 	}
 	else { //LeftSocket
-		GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket left"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.2f, FColor::Green, TEXT("socket left"));
 		limitA = GetSocketLocation("LeftSocket_2");
 		limitB = GetSocketLocation("LeftSocket_1");
 		axisX = false;

@@ -59,9 +59,9 @@ AStealthGameCharacter::AStealthGameCharacter()
 
 void AStealthGameCharacter::BeginPlay() {
 	Super::BeginPlay();
-	GEngine->AddOnScreenDebugMessage(0, 100, FColor::Green, TEXT("Begin play"));
+	//GEngine->AddOnScreenDebugMessage(0, 100, FColor::Green, TEXT("Begin play"));
 	if (MovementCurve && OffsetCurve) {
-		GEngine->AddOnScreenDebugMessage(1, 100, FColor::Green, TEXT("Registering"));
+		//GEngine->AddOnScreenDebugMessage(1, 100, FColor::Green, TEXT("Registering"));
 		FOnTimelineFloat ProgressFunctionLength;
 		ProgressFunctionLength.BindUFunction(this, "HandleProgressArmLength");
 		AimTimeline.AddInterpFloat(MovementCurve, ProgressFunctionLength);
@@ -84,12 +84,12 @@ void AStealthGameCharacter::Tick(float DeltaTime) {
 }
 
 void AStealthGameCharacter::HandleProgressArmLength(float Length) {
-	GEngine->AddOnScreenDebugMessage(2, 100, FColor::Green, TEXT("Aim In"));
+	//GEngine->AddOnScreenDebugMessage(2, 100, FColor::Green, TEXT("Aim In"));
 	CameraBoom->TargetArmLength = Length;
 }
 
 void AStealthGameCharacter::HandleProgressCameraOffset(FVector Offset) {
-	GEngine->AddOnScreenDebugMessage(3, 100, FColor::Green, TEXT("Aim In"));
+	//GEngine->AddOnScreenDebugMessage(3, 100, FColor::Green, TEXT("Aim In"));
 	CameraBoom->SocketOffset = Offset;
 }
 
@@ -226,13 +226,13 @@ void AStealthGameCharacter::FireCharacter(){
 		//GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Green, name);
 		//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, TEXT("Number %s"), name);
 		//UE_LOG(YourLog, Warning,TEXT("MyCharacter's Location is %s"), name);
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, name);
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, name);
 		AEnemy* hitEnemy = Cast<AEnemy>(outHit.Actor.Get());
 		if (hitEnemy){
-			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Hit PLAYER"));
+			//GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Hit PLAYER"));
 			hitEnemy->GetHealthComponent()->GetDamage(1);
 		}else{
-			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("No hit player"));
+			//GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("No hit player"));
 		}
 	}
 }
@@ -267,18 +267,18 @@ ACover* AStealthGameCharacter::HitCover(UPARAM(ref) FHitResult& Hit){
 	FVector end = start + (forwardVector * 5000.f);
 
 	bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, start, end, ECC_Pawn, Params);
-	GEngine->AddOnScreenDebugMessage(-30, 5.f, FColor::White, FString::Printf(TEXT("NextPosition: %s"), *Hit.ImpactPoint.ToString()));
+	//GEngine->AddOnScreenDebugMessage(-30, 5.f, FColor::White, FString::Printf(TEXT("NextPosition: %s"), *Hit.ImpactPoint.ToString()));
 	if(bHit){
 		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 1, 0, 1);
 		ACover* hitCover = Cast<ACover>(Hit.Actor.Get());
 		FString name = Hit.Actor->GetName();
 		if (hitCover) {
-			GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Find Cover"));
+			//GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Find Cover"));
 			return hitCover;
 		}
 	}
 
-	GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Not find cover"));
+	//GEngine->AddOnScreenDebugMessage(10, 100, FColor::Green, TEXT("Not find cover"));
 	return NULL;
 }
 
@@ -292,9 +292,9 @@ void AStealthGameCharacter::Cover(){
 		cover->GetLimits(GetActorLocation(), limitA, limitB, axisX);
 		startLocation = GetActorLocation();
 		coverDestination = cover->GetNearbySocketPosition(GetActorLocation());
-		GEngine->AddOnScreenDebugMessage(-8, 5.f, FColor::Red, FString::Printf(TEXT("NextPosition: %s"), *Hit.ImpactPoint.ToString()));
-		GEngine->AddOnScreenDebugMessage(-5, 5.f, FColor::Red, FString::Printf(TEXT("LimitA: %s"), *limitA.ToString()));
-		GEngine->AddOnScreenDebugMessage(-2, 5.f, FColor::Red, FString::Printf(TEXT("LimitB: %s"), *limitB.ToString()));
+		//GEngine->AddOnScreenDebugMessage(-8, 5.f, FColor::Red, FString::Printf(TEXT("NextPosition: %s"), *Hit.ImpactPoint.ToString()));
+		//GEngine->AddOnScreenDebugMessage(-5, 5.f, FColor::Red, FString::Printf(TEXT("LimitA: %s"), *limitA.ToString()));
+		//GEngine->AddOnScreenDebugMessage(-2, 5.f, FColor::Red, FString::Printf(TEXT("LimitB: %s"), *limitB.ToString()));
 		if(axisX){
 				if(Hit.ImpactPoint.X >= limitA.X && Hit.ImpactPoint.X <= limitB.X ){
 					coverDestination = FVector(Hit.ImpactPoint.X, limitB.Y, limitB.Z);
@@ -343,9 +343,9 @@ void AStealthGameCharacter::MoveRight(float Value)
 			cover->DetermineMovementDirection(GetActorLocation(), Direction, Rotation);
 			FVector nextPosition = GetActorLocation();
 			nextPosition = nextPosition + Direction * Value;
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("LimitA: %s"), *limitA.ToString()));
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("LimitB: %s"), *limitB.ToString()));
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("NextPosition: %s"), *nextPosition.ToString()));
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("LimitA: %s"), *limitA.ToString()));
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("LimitB: %s"), *limitB.ToString()));
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("NextPosition: %s"), *nextPosition.ToString()));
 			if(axisX){
 				if(nextPosition.X >= limitA.X && nextPosition.X <= limitB.X ){
 					SetActorRotation(Rotation);

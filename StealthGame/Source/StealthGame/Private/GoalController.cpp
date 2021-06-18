@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "StealthGame/StealthGameCharacter.h"
 #include "GoalController.h"
+#include "StealthGame/StealthGameCharacter.h"
 
 // Sets default values
 AGoalController::AGoalController()
