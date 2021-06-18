@@ -10,9 +10,9 @@ An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list
 - Implementing AI with Behaviour tree.
 
 Input
-Walk: WASD 
-Camera: mouse movement
-Aim: mouse right click
-Shoot: mouse left click || right trigger RT
-Cover: E key
-Pause menu: escape
+Walk: WASD  
+Camera: mouse movement  
+Aim: mouse right click  
+Shoot: mouse left click || right trigger RT  
+Cover: E key  
+Pause menu: escape  
