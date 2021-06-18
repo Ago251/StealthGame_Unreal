@@ -3,7 +3,7 @@
 ![StealthGame_Cover](https://user-images.githubusercontent.com/47710466/122533177-8a6f9a00-d021-11eb-9a0d-fe637b1bf5f4.png)
 
 # Introduction
-An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list of what I faced during the development.
+An UE4 (version 4.25) project made for studying Stealth mechanics. Here the list of what I faced during the development.
 
 - C++ with UE4: a focus on UE4 classes like Pawn, Actor, ActorComponent, Character, AIController, Procedural mesh.
 - Delegates and how to bind them in Blueprint
