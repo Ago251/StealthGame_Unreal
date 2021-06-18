@@ -9,7 +9,7 @@ An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list
 - Implementing Stealth mechanics: walk, move camera, aim on the shoulder, cover system, viewcone(procedural mesh), shaders for feedbacks(exclamation point and view cone)
 - Implementing AI with Behaviour tree.
 
-Input
+Input  
 Walk: WASD  
 Camera: mouse movement  
 Aim: mouse right click  
