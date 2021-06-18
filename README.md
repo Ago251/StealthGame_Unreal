@@ -1,5 +1,7 @@
 # StealthGame_Unreal
 
+![StealthGame_Cover](https://user-images.githubusercontent.com/47710466/122533177-8a6f9a00-d021-11eb-9a0d-fe637b1bf5f4.png)
+
 # Introduction
 An UE4 (version 4.24) project made for studying Stealth mechanics. Here the list of what I faced during the development.
 
